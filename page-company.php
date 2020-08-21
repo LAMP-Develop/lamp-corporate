@@ -4,9 +4,28 @@ Template Name: 会社概要
 */
 $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
-get_header(); the_post(); ?>
-<section>
-<div class="wrapper">
+get_header(); the_post();
+
+global $post;
+$slug = $post->post_name;
+if (has_post_thumbnail()) {
+    $thumbnail = 'style="background-image:url("'.get_the_post_thumbnail_url(get_the_ID(), 'full').'")';
+} else {
+    $thumbnail = '';
+}
+?>
+
+<section id="sub-visual" <?php echo $thumbnail; ?>>
+<span class="bg"></span>
+<div class="container">
+<div class="inner">
+<h1><?php echo $slug; ?><span><?php the_title(); ?></span></h1>
+</div>
+</div>
+</section>
+
+<div>
+<div class="container">
 <ul class="local-menu">
 <li><a href="#concept" target="_self">ビジョン <i class="fas fa-angle-down"></i></a></li>
 <li><a href="#company-profile" target="_self">会社概要 <i class="fas fa-angle-down"></i></a></li>
@@ -14,12 +33,14 @@ get_header(); the_post(); ?>
 <li><a href="#history" target="_self">沿革 <i class="fas fa-angle-down"></i></a></li>
 </ul>
 </div>
-</section>
-<section id="concept" class="vision">
+</div>
+
+
+<section id="concept" class="vision concept sec">
 <div class="wrap">
 <h2>VISION</h2>
 <div class="img-wrap">
-<img src="<?php echo $wp_url; ?>/lib/images/company/lamp_board_2.png" alt="株式会社ランプのビジョン">
+<img src="<?php echo $wp_url; ?>/dist/images/bg_top_concept.png" alt="株式会社ランプのビジョン">
 </div>
 <span class="abs"></span>
 <div class="txt-wrap">
@@ -32,17 +53,11 @@ get_header(); the_post(); ?>
 </div>
 </div>
 </section>
-<!-- <section id="service-main" class="sec">
-<div class="wrapper">
-<h2 class="top-ttl tx-c">VISION<span>私たちの経営理念</span></h2>
-<b>世界中を灯す会社を創る。</b>
-<p class="lh-25">エジソンが電灯を開発し世に普及させたことで、それまで真っ暗だった人々の生活に明かりが灯されました。<br>このことが真っ暗な夜でも家族や友人と顔を見ながら会話ができる、幸せな時間を創造しました。<br>まだ世界中には電灯がない時代のように、不便を強いられている事象がたくさん存在します。<br>私たちはそんな暗い部分を電灯のように明るく灯せるようなサービスを提供し、<br>常に1段1段階段を上がるように成長を続け、世界で最も老舗企業が多い京都で、<br>人々に長く愛される企業を目指します。</p>
-</div>
-</section> -->
-<section id="company-profile" class="sec bg-eee">
-<h2 class="top-ttl">COMPANY PROFILE<span>会社概要</span></h2>
-<div class="wrapper">
-<div class="table-wrap">
+
+<section id="company-profile" class="sec bg-secondary">
+<div class="container">
+<h2 class="ttl-h2">COMPANY PROFILE<span>会社概要</span></h2>
+<div class="table-wrap bg-white">
 <table>
 <tbody>
 <tr>
@@ -58,11 +73,11 @@ get_header(); the_post(); ?>
 <div class="mb10">
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13071.708712649783!2d135.760749!3d35.008528!3m2!1i1024!2i768!4f2!3m3!1m2!1s0x0%3A0x36021c8bc8d70a76!2z5qCq5byP5Lya56S-44Op44Oz44OX!5e0!3m2!1sja!2sjp!4v1571374911359!5m2!1sja!2sjp" allowfullscreen="" height="300"></iframe>
 </div>
-<h3>交通のご案内</h3>
+<p class="font-weight-bold">交通のご案内</p>
 <ul>
-<li>・京都市営地下鉄 烏丸線烏丸御池駅 5番出口より徒歩2分</li>
-<li>・京都市営地下鉄 四条駅 徒歩9分</li>
-<li>・阪急 烏丸駅 徒歩8分</li>
+<li>京都市営地下鉄 烏丸線烏丸御池駅 5番出口より徒歩2分</li>
+<li>京都市営地下鉄 四条駅 徒歩9分</li>
+<li>阪急 烏丸駅 徒歩8分</li>
 </ul>
 </td>
 </tr>
@@ -95,7 +110,10 @@ get_header(); the_post(); ?>
 </tr>
 <tr>
 <th>主な取引先(敬称略)</th>
-<td>京都府庁
+<td>
+<div class="row m-0">
+<div class="col-md p-0">
+京都府庁
 <br>株式会社京進
 <br>エムケイ株式会社
 <br>株式会社近鉄・都ホテルズ
@@ -106,7 +124,9 @@ get_header(); the_post(); ?>
 <br>アイエーグループ株式会社
 <br>日本ルナ株式会社
 <br>株式会社ベイシス
-<br>株式会社エス・ティーホテルズ
+</div>
+<div class="col-md p-0">
+株式会社エス・ティーホテルズ
 <br>株式会社コスモスモア
 <br>エムケイ石油株式会社
 <br>GMOインターネット株式会社
@@ -117,51 +137,40 @@ get_header(); the_post(); ?>
 <br>株式会社黛
 <br>株式会社高栄ホーム
 <br>株式会社リノア
-<br>その他 企業・一般社団法人など</td>
+<br>その他 企業・一般社団法人など
+</div>
+</div>
+</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 </section>
+
 <section id="member" class="sec">
-<h2 class="top-ttl">MEMBER<span>経営メンバー</span></h2>
-<div class="wrapper">
+<div class="container">
+<h2 class="ttl-h2">MEMBER<span>経営メンバー</span></h2>
 <ul class="members">
 <li>
-<img src="<?php echo $wp_url; ?>/lib/images/member/kouno.png" alt="河野匠">
+<img src="<?php echo $wp_url; ?>/dist/images/kouno.png" alt="河野匠">
 <h3><span>代表取締役 / 創業者</span>河野 匠<span>Takumi Kouno</span></h3>
 <p>滋賀県出身。大学在学中にファッション通販サイトを立ち上げたことがきっかけで起業。そこで培ったWEBマーケティングのノウハウを事業とした株式会社ランプを創業し、これまで200社以上のWEBマーケティングを支援。京都府庁主催のセミナーや上場企業の社内研修にも講師として多数登壇。</p>
 </li>
 <li>
-<img src="<?php echo $wp_url; ?>/lib/images/member/suzuki.png" alt="鈴木駿也">
+<img src="<?php echo $wp_url; ?>/dist/images/suzuki.png" alt="鈴木駿也">
 <h3><span>執行役員 / 技術責任者</span>鈴木 駿也<span>Shunya Suzuki</span></h3>
 <p>兵庫県出身。京都コンピューター学院在学中に、創業期であった株式会社ランプにインターンシップとして参画。卒業後もシステムエンジニアとして同社のプロダクト開発に従事。アプリケーションの開発、サイト制作、SEO対策など多岐に渡って担当。</p>
 </li>
-<!--
-<li>
-<img src="<?php echo $wp_url; ?>/lib/images/member/sakuragi.png" alt="櫻木大輝">
-<h3><span>ディレクター</span>櫻木 大輝<span>Daiki Sakuragi</span></h3>
-<p>京都府出身。大学在学中に創業期であった株式会社ランプに参画。大学卒業後は東京のアーティスト事務所でグッズ制作やWEB広告の実務経験を積み、株式会社ランプに復帰。WEBマーケティング事業のディレクターとして従事。</p>
-</li>
-<li>
-<img src="<?php echo $wp_url; ?>/lib/images/member/katsura.png" alt="桂裕幸">
-<h3><span>アカウントプランナー</span>桂 裕幸<span>Hiroyuki Katsura</span></h3>
-<p>京都府出身。兵庫県立大学を卒業後、星野楽器株式会社に入社し、ヨーロッパ12カ国との法人営業に従事。WEBを通じて生まれ育った京都の魅力を世界中へ発信したいと思い、株式会社ランプに入社。アカウントプランナーとして従事。</p>
-</li>
-<li>
-<img src="<?php echo $wp_url; ?>/lib/images/member/fujimoto.png" alt="藤本幸子">
-<h3><span>ディレクター</span>藤本 幸子<span>Sachiko Fujimoto</span></h3>
-<p>滋賀県出身。京都コンピューター学院在学中に、創業期であった株式会社ランプにインターンシップとして参画。その後、株式会社イルグルム（旧：株式会社ロックオン）にて技術サポート業務に従事。その後、株式会社ランプに訪日インバウンド事業のディレクターとしてUターン入社。</p>
-</li>-->
 </ul>
 </div>
 </section>
+
 <section id="history" class="sec">
-<h2 class="top-ttl">HISTORY<span>沿革</span></h2>
-<div class="wrapper">
-<div class="table-wrap">
-<table id="history-tb">
+<div class="container">
+<h2 class="ttl-h2">HISTORY<span>沿革</span></h2>
+
+<table class="history-tb">
 <tbody>
 <tr>
 <th rowspan="2">2011年</th>
@@ -206,7 +215,7 @@ get_header(); the_post(); ?>
 </tr>
 </tbody>
 </table>
-</div>
+
 </div>
 </section>
 <?php get_footer();
