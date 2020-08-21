@@ -48,7 +48,6 @@ module.exports = (env, argv) => ({
       $: "jquery",
       jQuery: "jquery",
       Popper: ["popper.js", "default"],
-      IScroll: "iscroll",
     }),
     new MiniCssExtractPlugin({
       filename: "../css/style.css",

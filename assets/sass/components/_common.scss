@@ -1,0 +1,63 @@
+body {
+  font-family: "Lato", "Noto Sans JP", sans-serif;
+  letter-spacing: 1px;
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+p {
+  font-size: $font-size-sm;
+  line-height: 1.7;
+}
+
+button:hover,
+button:active,
+button:focus {
+  outline: none;
+}
+
+.btn {
+  position: relative;
+  padding: 20px 30px;
+  border-radius: 10rem;
+  min-width: 250px;
+  font-size: $font-size-sm;
+  line-height: 1;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
+  & > i {
+    position: absolute;
+    top: 50%;
+    right: 1.8rem;
+    transform: translateY(-50%);
+  }
+}
+
+.sec {
+  padding: 90px 0;
+  @include media-breakpoint-down(md) {
+    padding: 3.5rem 0;
+  }
+}
+
+.ttl {
+  &-h2 {
+    font-size: 2.45rem;
+    letter-spacing: 0.15rem;
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+    font-weight: bold;
+    @include media-breakpoint-down(md) {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    span {
+      display: block;
+      letter-spacing: normal;
+      font-size: 12px;
+    }
+  }
+}

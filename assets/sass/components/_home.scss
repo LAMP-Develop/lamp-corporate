@@ -1,0 +1,24 @@
+#recruit {
+  position: relative;
+  min-height: 45vw;
+  @include media-breakpoint-down(md) {
+    min-height: 1px;
+  }
+  img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    max-width: 60vw;
+    @include media-breakpoint-down(md) {
+      position: static;
+      top: auto;
+      right: auto;
+      transform: none;
+      width: 100%;
+      max-width: 100%;
+      display: block;
+      margin: 0 0 1.5rem ;
+    }
+  }
+}
