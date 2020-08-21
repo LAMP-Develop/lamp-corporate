@@ -25,14 +25,14 @@ $wp_url = get_template_directory_uri();
 <header id="header">
 <div class="logo">
 <a href="<?php echo $home; ?>">
-<img src="<?php echo $wp_url; ?>/lib/images/common/logo.svg" alt="京都のコンテンツマーケティング会社「株式会社ランプ」ロゴ">
+<img src="<?php echo $wp_url; ?>/dist/images/logo.svg" alt="京都のコンテンツマーケティング会社「株式会社ランプ」ロゴ">
 </a>
 </div>
 <button type="button" class="drawer-toggle drawer-hamburger"><span class="drawer-hamburger-icon"></span><span class="sr-only">MENU</span></button>
 <nav id="nav" class="drawer-nav">
 <div class="logo">
 <a href="<?php echo $home; ?>">
-<img src="<?php echo $wp_url; ?>/lib/images/common/b_logo.svg" alt="京都のコンテンツマーケティング会社「株式会社ランプ」ロゴ">
+<img src="<?php echo $wp_url; ?>/dist/images/b_logo.svg" alt="京都のコンテンツマーケティング会社「株式会社ランプ」ロゴ">
 </a>
 </div>
 <ul class="drawer-menu">
@@ -49,6 +49,6 @@ $wp_url = get_template_directory_uri();
 <main>
 
 <div class="load-img">
-<img src="<?php echo $wp_url; ?>/lib/images/common/laod_logo.gif" alt="京都のコンテンツマーケティング会社「株式会社ランプ」ローディング">
+<img src="<?php echo $wp_url; ?>/dist/images/laod_logo.gif" alt="京都のコンテンツマーケティング会社「株式会社ランプ」ローディング">
 </div>
 <!-- .load-img -->
