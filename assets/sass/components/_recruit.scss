@@ -9,12 +9,19 @@
       overflow: hidden;
       width: 500px;
       height: 500px;
+      @include media-breakpoint-down(md) {
+        width: 90%;
+        height: auto;
+      }
       img {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: auto;
+        @include media-breakpoint-down(md) {
+          position: static;
+        }
       }
     }
     &-txt {
@@ -23,16 +30,31 @@
       right: 0;
       bottom: -2rem;
       max-width: 60%;
+      @include media-breakpoint-down(md) {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        max-width: 90%;
+        margin-left: auto;
+        margin-top: -5rem;
+      }
       & > img {
         position: absolute;
         top: -8rem;
         right: 0;
+        @include media-breakpoint-down(md) {
+          top: -10%;
+          max-width: 40vw;
+        }
       }
     }
     &-box {
       background-color: $white;
       padding: 60px;
       box-shadow: 0 0 10px rgba($body-color, 0.1);
+      @include media-breakpoint-down(md) {
+        padding: 2rem;
+      }
       .ttl {
         font-size: 1.3em;
         font-weight: bold;

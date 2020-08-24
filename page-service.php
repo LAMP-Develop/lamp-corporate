@@ -24,7 +24,7 @@ if (has_post_thumbnail()) {
 </div>
 </section>
 
-<section id="webmarketing" class="sec bg-light">
+<section id="webmarketing" class="sec bg-secondary">
 <div class="container">
 <h2 class="ttl-h2">WEB MARKETING<span>WEBマーケティング事業</span></h2>
 <ul class="service__lists">

@@ -1,0 +1,32 @@
+.singlepost {
+  font-size: $font-size-sm;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  &-ttl {
+    margin: 0 !important;
+  }
+  &-time {
+    margin: 1rem 0 2rem;
+    span {
+      font-size: 12px;
+    }
+  }
+  p {
+    font-size: $font-size-sm;
+  }
+  h2,
+  h3,
+  h4 {
+    font-weight: bold;
+    margin: 2em 0 1em;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+}

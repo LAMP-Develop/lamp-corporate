@@ -10,6 +10,7 @@
       position: relative;
       background-color: $white;
       list-style: none;
+      width: 48%;
       @include media-breakpoint-down(md) {
         width: 100%;
         margin-bottom: 1rem;
