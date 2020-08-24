@@ -25,11 +25,7 @@ $wp_url = get_template_directory_uri();
 
 <header id="header">
 
-<div class="logo">
-<a href="<?php echo $home; ?>">
-<img src="<?php echo $wp_url; ?>/dist/images/logo.svg" alt="京都のコンテンツマーケティング会社「株式会社ランプ」ロゴ">
-</a>
-</div>
+<h1 class="logo"><a href="<?php echo $home; ?>"><img src="<?php echo $wp_url; ?>/dist/images/logo.svg" alt="京都のコンテンツマーケティング会社「株式会社ランプ」ロゴ"></a></h1>
 
 <button type="button" class="drawer-hamburger">
 <span class="drawer-hamburger-icon"></span>

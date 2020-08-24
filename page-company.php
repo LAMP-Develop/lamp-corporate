@@ -19,12 +19,12 @@ if (has_post_thumbnail()) {
 <span class="bg"></span>
 <div class="container">
 <div class="inner">
-<h1><?php echo $slug; ?><span><?php the_title(); ?></span></h1>
+<h2><?php echo $slug; ?><span><?php the_title(); ?></span></h2>
 </div>
 </div>
 </section>
 
-<div>
+<div class="local-menu-wrap">
 <div class="container">
 <ul class="local-menu">
 <li><a href="#concept" target="_self">ビジョン <i class="fas fa-angle-down"></i></a></li>
@@ -35,20 +35,18 @@ if (has_post_thumbnail()) {
 </div>
 </div>
 
-
 <section id="concept" class="vision concept sec">
 <div class="wrap">
-<h2>VISION</h2>
+<h2 class="ttl-h2">VISION<span>ビジョン</span></h2>
 <div class="img-wrap">
 <img src="<?php echo $wp_url; ?>/dist/images/bg_top_concept.png" alt="株式会社ランプのビジョン">
 </div>
 <span class="abs"></span>
 <div class="txt-wrap">
 <div class="inner">
-<h3>世界中を灯す会社を創る。</h3>
+<h3>デジタルの力で地域社会を灯す。</h3>
 <p>エジソンが電灯を世の中に普及させたことで、それまで真っ暗だった人々の生活に明かりが灯されました。
-<br>私たちはそんな電灯のように世界中を明るく灯すような企業を目指しています。
-</p>
+<br>私たちはそんな電灯のように地域社会を明るく灯すような企業を目指します。</p>
 </div>
 </div>
 </div>
@@ -66,18 +64,17 @@ if (has_post_thumbnail()) {
 </tr>
 <tr>
 <th>所在地</th>
-<td>
-〒604-8136<br>
-京都府京都市中京区三条通烏丸東入梅忠町24-1 加藤ビル2F<br>
-<a href="https://www.google.co.jp/maps/place/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%83%A9%E3%83%B3%E3%83%97/@35.0080972,135.7002919,12z/data=!4m8!1m2!2m1!1z5qCq5byP5Lya56S-44Op44Oz44OX!3m4!1s0x60010883810d04b5:0x36021c8bc8d70a76!8m2!3d35.008528!4d135.760749" target="_blank" rel="noopener">GoogleMapを開く</a><br>
-<div class="mb10">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13071.708712649783!2d135.760749!3d35.008528!3m2!1i1024!2i768!4f2!3m3!1m2!1s0x0%3A0x36021c8bc8d70a76!2z5qCq5byP5Lya56S-44Op44Oz44OX!5e0!3m2!1sja!2sjp!4v1571374911359!5m2!1sja!2sjp" allowfullscreen="" height="300"></iframe>
+<td>〒604-0024
+<br>京都府京都市中京区下妙覚寺町195 KMGビル4F
+<br><a href="https://goo.gl/maps/YpF8QH1gtNgMS4of8" target="_blank" rel="noopener">GoogleMapを開く&nbsp;&gt;</a><br>
+<div class="mb-3">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d816.9498904256012!2d135.75689922920367!3d35.0117222971837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010886b81f2edb%3A0xad193671c90bf008!2z44CSNjA0LTAwMjQg5Lqs6YO95bqc5Lqs6YO95biC5Lit5Lqs5Yy65LiL5aaZ6Kaa5a-655S677yR77yZ77yV4oiS77yS!5e0!3m2!1sja!2sjp!4v1598234109278!5m2!1sja!2sjp" allowfullscreen="" height="300"></iframe>
 </div>
-<p class="font-weight-bold">交通のご案内</p>
-<ul>
-<li>京都市営地下鉄 烏丸線烏丸御池駅 5番出口より徒歩2分</li>
-<li>京都市営地下鉄 四条駅 徒歩9分</li>
-<li>阪急 烏丸駅 徒歩8分</li>
+<span class="font-weight-bold d-block mb-2">交通のご案内</span>
+<ul class="pl-3 m-0">
+<li>京都市営地下鉄 烏丸線烏丸御池駅 5番出口より徒歩4分</li>
+<li>京都市営地下鉄 四条駅 徒歩12分</li>
+<li>阪急 烏丸駅 徒歩10分</li>
 </ul>
 </td>
 </tr>
@@ -88,9 +85,9 @@ if (has_post_thumbnail()) {
 </tr>
 <tr>
 <th>事業内容</th>
-<td>WEBマーケティング事業
-<br>訪日インバウンド事業
-<br><a href="<?php echo $home; ?>/service/">サービス一覧&nbsp;&gt;</a></td>
+<td>テイクアウト専用プラットフォーム「TakeEats」の開発・運営
+<br>全国のテイクアウトできるお店検索メディア「TakeEatsお店検索」の企画・運営
+<br>WEBマーケティング支援事業</td>
 </tr>
 <tr>
 <th>代表者</th>
@@ -106,7 +103,7 @@ if (has_post_thumbnail()) {
 </tr>
 <tr>
 <th>従業員数</th>
-<td>20名（アルバイト含む）</td>
+<td>18名(アルバイト含む)</td>
 </tr>
 <tr>
 <th>主な取引先(敬称略)</th>

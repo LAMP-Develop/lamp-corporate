@@ -1,0 +1,44 @@
+.service {
+  &__lists {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: 0;
+    margin: 0;
+    &-item {
+      position: relative;
+      background-color: $white;
+      list-style: none;
+      @include media-breakpoint-down(md) {
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+      & > a {
+        display: block;
+        padding: 3rem;
+        color: $body-color;
+        @include media-breakpoint-down(md) {
+          padding: 2rem;
+        }
+        &:hover {
+          box-shadow: 0 0 5px rgba($body-color, 0.1);
+        }
+      }
+      .logo {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 90px;
+        @include media-breakpoint-down(md) {
+          height: auto;
+          margin-bottom: 1rem;
+        }
+        img {
+          width: 200px;
+          height: auto;
+        }
+      }
+    }
+  }
+}

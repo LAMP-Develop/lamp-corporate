@@ -10,6 +10,9 @@
     background-image: url("../images/sp_main_visual.png");
     height: 85vh;
   }
+  &.recruit-visual {
+    background-image: url("../images/mv_recruit.png");
+  }
   .inner {
     position: absolute;
     top: 50%;
@@ -23,26 +26,29 @@
     transform: translateY(-50%) translateX(-50%);
     color: $white;
     @include media-breakpoint-down(md) {
-      top: 40%;
       padding: 0 1rem;
     }
     p {
-      font-size: 2.4em;
-      line-height: normal;
-      margin: 0 auto 30px auto;
-      letter-spacing: 0.1em;
-      text-shadow: 0 0 10px $body-color;
-      @include media-breakpoint-down(md) {
-        font-size: 1.6em;
+      &.tlt {
+        font-size: 2.4em;
+        line-height: normal;
+        margin: 0 auto 30px auto;
+        letter-spacing: 0.1em;
+        text-shadow: 0 0 10px $body-color;
+        @include media-breakpoint-down(md) {
+          font-size: 1.6em;
+        }
       }
-    }
-    h1 {
-      font-size: $font-size-sm;
-      font-weight: normal;
-      margin: 0 auto;
-      text-shadow: 0 0 3px $body-color;
-      @include media-breakpoint-down(md) {
-        font-size: 0.8rem;
+      &.desc {
+        font-size: $font-size-sm;
+        font-weight: normal;
+        margin: 0 auto;
+        text-shadow: 0 0 3px $body-color;
+        @include media-breakpoint-down(md) {
+          font-size: 0.8rem;
+          line-height: normal;
+          letter-spacing: normal;
+        }
       }
     }
   }
@@ -128,7 +134,7 @@
     width: 100%;
     -webkit-transform: translateY(-50%) translateX(-50%);
     transform: translateY(-50%) translateX(-50%);
-    h1 {
+    h2 {
       text-align: center;
       font-size: 2.6rem;
       font-weight: bold;

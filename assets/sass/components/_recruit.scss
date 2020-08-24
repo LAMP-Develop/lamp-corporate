@@ -1,0 +1,44 @@
+.recruit {
+  &__message {
+    .container {
+      position: relative;
+      height: 100%;
+    }
+    &-pict {
+      position: relative;
+      overflow: hidden;
+      width: 500px;
+      height: 500px;
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+      }
+    }
+    &-txt {
+      z-index: 1;
+      position: absolute;
+      right: 0;
+      bottom: -2rem;
+      max-width: 60%;
+      & > img {
+        position: absolute;
+        top: -8rem;
+        right: 0;
+      }
+    }
+    &-box {
+      background-color: $white;
+      padding: 60px;
+      box-shadow: 0 0 10px rgba($body-color, 0.1);
+      .ttl {
+        font-size: 1.3em;
+        font-weight: bold;
+        letter-spacing: 0.15em;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
