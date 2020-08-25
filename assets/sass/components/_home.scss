@@ -136,3 +136,20 @@
     }
   }
 }
+
+#home-news {
+  .newslist__list {
+    @include media-breakpoint-down(md) {
+      overflow-x: scroll;
+      flex-wrap: nowrap;
+      padding: 1rem;
+    }
+    .newslist__list-item {
+      margin-bottom: 0;
+      @include media-breakpoint-down(md) {
+        flex: 0 0 90%;
+        margin: 0 1rem 0 0;
+      }
+    }
+  }
+}

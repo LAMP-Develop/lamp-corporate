@@ -1,75 +1,61 @@
 .newslist {
-  &__cats {
+  &__list {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
-    padding: 0;
-    margin: 0;
-    li {
-      list-style: none;
-      margin-right: 1.5rem;
+    &-item {
+      width: 32%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+      box-shadow: 0 0 1rem rgba($body-color, 0.1);
+      transition: all 0.3s;
       @include media-breakpoint-down(md) {
-        margin-right: 1rem;
-        margin-bottom: 0.5rem;
-      }
-      &:last-child {
+        width: 100%;
         margin-right: 0;
       }
-      a {
-        display: block;
-        color: $body-color;
-        font-size: $font-size-sm;
+      &:nth-child(3n) {
+        margin-right: 0;
+      }
+      &:hover {
+        box-shadow: 0 0 1rem rgba($body-color, 0.3);
       }
     }
-  }
-  &-list {
-    margin-top: 3rem;
-    @include media-breakpoint-down(md) {
-      margin-top: 1rem;
+    &-thumbnail {
+      overflow: hidden;
+      width: 100%;
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
-    a {
+    &-txt {
+      background-color: $body-color;
+      color: $white;
+      padding: 1.5rem 2rem;
+    }
+    &-ttl {
+      font-weight: bold;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    &-meta {
       display: flex;
       justify-content: flex-start;
-      align-items: center;
-      flex-wrap: wrap;
-      color: $body-color;
-      padding-bottom: 1rem;
-      margin-bottom: 1rem;
-      border-bottom: 1px solid $secondary;
-      font-size: $font-size-sm;
-      span {
+      align-items: flex-start;
+      flex-wrap: nowrap;
+      & > span {
         display: block;
-        &.time {
-          color: $light;
-          margin-right: 1rem;
+        line-height: 1;
+        &:first-child {
+          font-size: $font-size-sm;
+          margin-right: 0.5rem;
+          padding-right: 0.5rem;
+          border-right: 1px solid $white;
         }
-        &.cat {
-          margin-right: 1rem;
-          font-size: 12px;
-          border: 1px solid $warning;
-          padding: 2px 8px;
-        }
-        &.ttl {
-          @include media-breakpoint-down(md) {
-            width: 100%;
-            margin-top: 5px;
-          }
-        }
-      }
-      &.news {
-        .cat {
-          border-color: $warning;
-        }
-      }
-      &.press-release {
-        .cat {
-          border-color: $danger;
-        }
-      }
-      &.event {
-        .cat {
-          border-color: $info;
+        &:last-child {
+          font-size: $font-size-sm;
+          color: rgba($white, 0.4);
         }
       }
     }

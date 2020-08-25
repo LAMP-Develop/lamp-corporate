@@ -1,6 +1,7 @@
 body {
   font-family: "Lato", "Noto Sans JP", sans-serif;
-  letter-spacing: 1px;
+  font-feature-settings: "palt" 1;
+  letter-spacing: 0.06em;
 }
 
 a {
@@ -112,4 +113,32 @@ button:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.bg-diagonal {
+  overflow: hidden;
+  position: relative;
+  &::after {
+    z-index: -1;
+    content: "";
+    background-color: $secondary;
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translateX(-50%) rotate(-10deg);
+    width: 150%;
+    height: 70%;
+  }
+}
+
+.more-btn {
+  text-align: center;
+  margin-top: 1rem;
+  a {
+    display: inline-block;
+    vertical-align: middle;
+    color: $body-color;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
 }
