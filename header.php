@@ -23,6 +23,10 @@ $wp_url = get_template_directory_uri();
 <body <?php body_class(); ?> data-tmpdir="<?php echo $wp_url; ?>">
 <?php wp_body_open(); ?>
 
+<div class="loadanim">
+<div><img src="<?php echo $wp_url; ?>/dist/images/laod_logo.gif" alt="loading"></div>
+</div>
+
 <header id="header">
 
 <h1 class="logo"><a href="<?php echo $home; ?>"><img src="<?php echo $wp_url; ?>/dist/images/logo.svg" alt="京都のコンテンツマーケティング会社「株式会社ランプ」ロゴ"></a></h1>
@@ -45,4 +49,4 @@ $wp_url = get_template_directory_uri();
 </header>
 <!-- #header -->
 
-<main>
+<main id="main-content">

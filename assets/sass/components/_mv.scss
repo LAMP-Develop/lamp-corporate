@@ -42,12 +42,14 @@
       &.desc {
         font-size: $font-size-sm;
         font-weight: normal;
-        margin: 0 auto;
+        margin: 0;
         text-shadow: 0 0 3px $body-color;
+        max-width: 40vw;
         @include media-breakpoint-down(md) {
           font-size: 0.8rem;
           line-height: normal;
           letter-spacing: normal;
+          max-width: 100%;
         }
       }
     }

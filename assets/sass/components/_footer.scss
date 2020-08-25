@@ -1,6 +1,7 @@
 #footer {
   padding-top: 60px;
   text-align: center;
+  background-color: $secondary;
   .logo {
     text-align: center;
     img {
@@ -10,16 +11,44 @@
   }
   ul {
     padding: 0;
-    margin: 3rem 0;
+    margin: 2rem 0;
     text-align: center;
+    @include media-breakpoint-down(md) {
+      text-align-last: left;
+    }
     li {
       display: inline-block;
       vertical-align: middle;
       list-style: none;
       margin: 0 0.5rem;
+      @include media-breakpoint-down(md) {
+        margin: 0 0.5rem 0.5rem 0;
+      }
       a {
         font-size: $font-size-sm;
         color: $body-color;
+        @include media-breakpoint-down(md) {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .sns {
+    margin-bottom: 2rem;
+    text-align: center;
+    a {
+      display: inline-block;
+      vertical-align: middle;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      border: 1px solid $body-color;
+      color: $body-color;
+      line-height: 3rem;
+      font-size: 1.25rem;
+      &:hover {
+        background-color: $body-color;
+        color: $white;
       }
     }
   }

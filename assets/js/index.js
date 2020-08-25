@@ -7,6 +7,11 @@ import "bootstrap";
 // テーマディレクトリ
 const wp_url = $("body").attr("data-tmpdir");
 
+// all dom ready
+$(window).on("load", function () {
+  $(".loadanim").fadeOut();
+});
+
 // スクロールイベント
 $(window).on("scroll", function () {
   let s = $(window).scrollTop();
