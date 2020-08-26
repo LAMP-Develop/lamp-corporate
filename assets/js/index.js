@@ -70,6 +70,8 @@ $(".logo-slick").slick({
 
 // job sort
 $(".joblist-sort .btn").on("click", function () {
+  $(".joblist-sort .btn").removeClass("active");
+  $(this).addClass("active");
   let sort_group = $(this).attr("data-group");
   $.when($(".joblist-grid").children(".joblist-item").fadeOut()).done(function () {
     $(".joblist-grid")
