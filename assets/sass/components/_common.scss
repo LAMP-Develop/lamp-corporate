@@ -65,9 +65,15 @@ button:focus {
       margin-bottom: 2rem;
     }
     span {
-      display: block;
+      display: inline-block;
+      vertical-align: middle;
       letter-spacing: normal;
       font-size: 12px;
+      margin-left: 2rem;
+      @include media-breakpoint-down(md) {
+        display: block;
+        margin-left: 0;
+      }
     }
   }
 }

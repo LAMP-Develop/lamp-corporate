@@ -1,4 +1,140 @@
 .service {
+  &__hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+    @include media-breakpoint-down(md) {
+      padding: 0;
+    }
+    &-item {
+      position: relative;
+      overflow: hidden;
+      display: block;
+      padding: 2rem;
+      border-radius: 1rem;
+      width: 48%;
+      min-height: 450px;
+      background-image: url("../images/home_service_1.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      color: $white;
+      font-size: 0;
+      @include media-breakpoint-down(md) {
+        width: 100%;
+        box-shadow: 0 0 5px rgba($body-color, 0.1);
+      }
+      @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+        background-image: url("../images/home_service_1@2x.png");
+      }
+      &:nth-child(2) {
+        background-image: url("../images/home_service_2.png");
+        @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+          background-image: url("../images/home_service_2@2x.png");
+        }
+      }
+      &:hover {
+        color: $white;
+        transform: scale(0.97);
+        border-radius: 3rem;
+        box-shadow: 0 0 1rem rgba($body-color, 0.2);
+      }
+      &:first-child {
+        margin-top: 3rem;
+        @include media-breakpoint-down(md) {
+          margin-top: 0;
+          margin-bottom: 2rem;
+        }
+      }
+    }
+    &-logo {
+      margin-bottom: 2rem;
+    }
+    &-ttl {
+      display: inline-block;
+      vertical-align: bottom;
+      border-bottom: 3px solid $white;
+      margin: 0;
+      padding-bottom: 5px;
+      font-weight: bold;
+      font-size: 1.3rem;
+      line-height: normal;
+    }
+    &-btn {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      display: inline-block;
+      vertical-align: bottom;
+      background-color: $white;
+      line-height: 1;
+      font-size: 1rem;
+      padding: 1rem 4rem;
+      color: $body-color;
+      @include media-breakpoint-down(md) {
+        width: 100%;
+        text-align: center;
+        padding: 1.5rem 1rem;
+      }
+    }
+  }
+  &__takeeats {
+    &__wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      @include media-breakpoint-down(md) {
+        flex-flow: column-reverse;
+      }
+      &-txt {
+        width: 47%;
+        @include media-breakpoint-down(md) {
+          width: 100%;
+          margin-top: 1.5rem;
+        }
+      }
+      &-logo {
+        margin-bottom: 2rem;
+      }
+      &-futures {
+        display: flex;
+        justify-content: flex-start;
+        align-items: stretch;
+        flex-wrap: nowrap;
+        margin: 2rem 0;
+        @include media-breakpoint-down(md) {
+          justify-content: center;
+          margin: 1.5rem 0;
+        }
+        & > div {
+          text-align: center;
+          border-right: 1px solid $light;
+          padding: 0 1.5rem;
+          &:last-child {
+            border-right: none;
+          }
+          p {
+            margin: 0 0 8px;
+            font-weight: bold;
+            font-size: $font-size-sm;
+          }
+        }
+      }
+      &-img {
+        width: 47%;
+        @include media-breakpoint-down(md) {
+          width: 100vw;
+          margin: 0 -15px;
+        }
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
   &__lists {
     display: flex;
     justify-content: space-between;
@@ -38,6 +174,24 @@
         img {
           width: 200px;
           height: auto;
+        }
+      }
+    }
+  }
+}
+
+.logo-slick {
+  .slick-slide {
+    & > div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 75px;
+      font-size: 0;
+      span {
+        img {
+          display: block;
+          margin: auto;
         }
       }
     }

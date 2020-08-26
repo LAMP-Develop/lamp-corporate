@@ -140,15 +140,17 @@
 #home-news {
   .newslist__list {
     @include media-breakpoint-down(md) {
+      width: 100vw;
+      margin: 0 -15px;
       overflow-x: scroll;
       flex-wrap: nowrap;
-      padding: 1rem;
+      padding: 1rem 1.5rem;
     }
     .newslist__list-item {
       margin-bottom: 0;
       @include media-breakpoint-down(md) {
-        flex: 0 0 90%;
-        margin: 0 1rem 0 0;
+        flex: 0 0 88%;
+        margin: 0 1.5rem 0 0;
       }
     }
   }

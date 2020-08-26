@@ -3,6 +3,7 @@ import "../sass/app.scss";
 
 // JSインポート
 import "bootstrap";
+import "slick-carousel";
 
 // テーマディレクトリ
 const wp_url = $("body").attr("data-tmpdir");
@@ -24,6 +25,7 @@ $(window).on("scroll", function () {
   }
 });
 
+// ドロワーメニュー
 $(".drawer-hamburger").on("click", function () {
   $("body").toggleClass("drawer-open");
   if ($("body").hasClass("drawer-open")) {
@@ -41,4 +43,37 @@ $('a[href^="#"]').click(function () {
   var position = target.offset().top - 71;
   $("body,html").animate({ scrollTop: position }, speed, "swing");
   return false;
+});
+
+// slick
+$(".logo-slick").slick({
+  slidesToShow: 5,
+  centerMode: true,
+  arrows: false,
+  autoplay: true,
+  autoplaySpeed: 0,
+  speed: 10000,
+  swipe: false,
+  cssEase: "linear",
+  pauseOnFocus: false,
+  pauseOnHover: false,
+  pauseOnDotsHover: false,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+  ],
+});
+
+// job sort
+$(".joblist-sort .btn").on("click", function () {
+  let sort_group = $(this).attr("data-group");
+  $.when($(".joblist-grid").children(".joblist-item").fadeOut()).done(function () {
+    $(".joblist-grid")
+      .children("." + sort_group)
+      .fadeIn();
+  });
 });
