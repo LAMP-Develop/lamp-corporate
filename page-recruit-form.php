@@ -3,9 +3,7 @@ $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 $recruit_id = $_GET['recruit_id'];
 $job_name = get_post($recruit_id)->post_title;
-
 get_header(); the_post();
-
 global $post;
 $slug = $post->post_name;
 if (has_post_thumbnail()) {
@@ -14,7 +12,6 @@ if (has_post_thumbnail()) {
     $thumbnail = '';
 }
 ?>
-
 <section id="sub-visual" <?php echo $thumbnail; ?>>
 <span class="bg"></span>
 <div class="container">
@@ -23,7 +20,6 @@ if (has_post_thumbnail()) {
 </div>
 </div>
 </section>
-
 <section class="sec">
 <div class="container">
 <h2 class="h4 font-weight-bold text-center mb-4">採用応募について</h2>
@@ -32,7 +28,6 @@ if (has_post_thumbnail()) {
 <?php the_content(); ?>
 </div>
 </section>
-
 <script>
 document.getElementById("your-job").value = "<?php echo $job_name; ?>";
 document.getElementById("your-job").setAttribute("disabled", false);

@@ -5,14 +5,12 @@ Template Name: 採用情報
 $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 get_header(); the_post(); ?>
-
 <section id="main-visual" class="recruit-visual">
 <div class="inner text-center p-md-0">
 <img class="ttl" src="<?php echo $wp_url; ?>/dist/images/recruit_catch.png" alt="京都のITベンチャー">
 <p class="desc text-center mx-auto">ー 歴史の都"京都"で共に成長したいあなたへ ー</p>
 </div>
 </section>
-
 <section class="sec recruit__message">
 <div class="container">
 <div class="recruit__message-pict">
@@ -27,7 +25,6 @@ get_header(); the_post(); ?>
 </div>
 </div>
 </section>
-
 <section class="sec pb-0">
 <div class="container">
 <h2 class="ttl-h2 mb-4">VALUE<span>行動指針</span></h2>
@@ -59,11 +56,9 @@ get_header(); the_post(); ?>
 </div>
 </div>
 </section>
-
 <section class="sec">
 <div class="container">
 <h2 class="ttl-h2">JOB LIST<span>職種一覧</span></h2>
-
 <div class="joblist">
 <div class="joblist-sort">
 <button class="d-inline-block w-auto btn btn-outline-dark active" data-group="all">すべて</button>
@@ -71,7 +66,6 @@ get_header(); the_post(); ?>
 <button class="d-inline-block w-auto btn btn-outline-primary" data-group="intern">新卒・インターン</button>
 <button class="d-inline-block w-auto btn btn-outline-warning" data-group="parttime">アルバイト・パート</button>
 </div>
-
 <div class="joblist-grid">
 <?php
 $args = [
@@ -102,8 +96,6 @@ $job_place = get_field('job_place');
 <?php endforeach; wp_reset_postdata(); ?>
 </div>
 </div>
-
 </div>
 </section>
-
 <?php get_footer();

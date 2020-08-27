@@ -2,14 +2,12 @@
 $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 get_header();
-
 if (have_posts()): while (have_posts()): the_post();
 if (has_post_thumbnail()) {
     $thumbnail = 'style="background-image:url("'.get_the_post_thumbnail_url(get_the_ID(), 'full').'")';
 } else {
     $thumbnail = '';
 }
-
 $job_arr = get_field_objects(get_the_ID());
 ?>
 <section id="sub-visual" <?php echo $thumbnail; ?>>
@@ -33,8 +31,8 @@ $job_arr = get_field_objects(get_the_ID());
 <?php
 foreach ($job_arr as $key => $job_field):
   if ($key === 'job_desc') {
-  continue;
-}
+      continue;
+  }
 ?>
 <tr>
 <th class="text-nowrap"><?php echo $job_field['label']; ?></th>

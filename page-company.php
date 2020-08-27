@@ -5,7 +5,6 @@ Template Name: 会社概要
 $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 get_header(); the_post();
-
 global $post;
 $slug = $post->post_name;
 if (has_post_thumbnail()) {
@@ -14,7 +13,6 @@ if (has_post_thumbnail()) {
     $thumbnail = '';
 }
 ?>
-
 <section id="sub-visual" <?php echo $thumbnail; ?>>
 <span class="bg"></span>
 <div class="container">
@@ -23,7 +21,6 @@ if (has_post_thumbnail()) {
 </div>
 </div>
 </section>
-
 <div class="local-menu-wrap">
 <div class="container">
 <ul class="local-menu">
@@ -34,7 +31,6 @@ if (has_post_thumbnail()) {
 </ul>
 </div>
 </div>
-
 <section id="concept" class="vision concept sec">
 <div class="wrap">
 <h2 class="ttl-h2">VISION<span>ビジョン</span></h2>
@@ -51,7 +47,6 @@ if (has_post_thumbnail()) {
 </div>
 </div>
 </section>
-
 <section id="company-profile" class="sec bg-secondary">
 <div class="container">
 <h2 class="ttl-h2">COMPANY PROFILE<span>会社概要</span></h2>
@@ -144,7 +139,6 @@ if (has_post_thumbnail()) {
 </div>
 </div>
 </section>
-
 <section id="member" class="sec">
 <div class="container">
 <h2 class="ttl-h2">MEMBER<span>経営メンバー</span></h2>
@@ -162,11 +156,9 @@ if (has_post_thumbnail()) {
 </ul>
 </div>
 </section>
-
 <section id="history" class="sec">
 <div class="container">
 <h2 class="ttl-h2">HISTORY<span>沿革</span></h2>
-
 <table class="history-tb">
 <tbody>
 <tr>
@@ -212,7 +204,6 @@ if (has_post_thumbnail()) {
 </tr>
 </tbody>
 </table>
-
 </div>
 </section>
 <?php get_footer();

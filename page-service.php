@@ -5,7 +5,6 @@ Template Name: サービス
 $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 get_header(); the_post();
-
 global $post;
 $slug = $post->post_name;
 if (has_post_thumbnail()) {
@@ -14,7 +13,6 @@ if (has_post_thumbnail()) {
     $thumbnail = '';
 }
 ?>
-
 <section id="sub-visual" <?php echo $thumbnail; ?>>
 <span class="bg"></span>
 <div class="container">
@@ -23,12 +21,10 @@ if (has_post_thumbnail()) {
 </div>
 </div>
 </section>
-
 <section class="sec">
 <div class="container">
 <h2 class="ttl-h2">SERVICE<span>私たちが展開するサービス</span></h2>
 <div class="service__takeeats">
-
 <div class="service__takeeats__wrap">
 <div class="service__takeeats__wrap-txt">
 <div class="service__takeeats__wrap-logo">
@@ -58,7 +54,6 @@ if (has_post_thumbnail()) {
 <img src="<?php echo $wp_url; ?>/dist/images/service_1.png" alt="TakeEats" srcset="<?php echo $wp_url; ?>/dist/images/service_1.png 1x, <?php echo $wp_url; ?>/dist/images/service_1@2x.png 2x">
 </div>
 </div>
-
 <div class="service__takeeats__wrap mt-5">
 <div class="service__takeeats__wrap-txt">
 <div class="service__takeeats__wrap-logo">
@@ -87,18 +82,14 @@ if (has_post_thumbnail()) {
 <img src="<?php echo $wp_url; ?>/dist/images/service_2.png" alt="TakeEats" srcset="<?php echo $wp_url; ?>/dist/images/service_2.png 1x, <?php echo $wp_url; ?>/dist/images/service_2@2x.png 2x">
 </div>
 </div>
-
 </div>
 </div>
-
 <div class="logo-slick mt-5">
 <?php for ($i = 1; $i <= 8; $i++): ?>
 <span><img src="<?php echo $wp_url; ?>/dist/images/lp_logo_<?php echo $i; ?>.png" alt="TakeEats導入事例-<?php echo $i; ?>" srcset="<?php echo $wp_url; ?>/dist/images/lp_logo_<?php echo $i; ?>.png 1x, <?php echo $wp_url; ?>/dist/images/lp_logo_<?php echo $i; ?>@2x.png 2x"></span>
 <?php endfor; ?>
 </div>
-
 </section>
-
 <section id="webmarketing" class="sec bg-secondary">
 <div class="container">
 <h2 class="ttl-h2">WEB MARKETING<span>WEBマーケティング事業</span></h2>
@@ -124,11 +115,9 @@ if (has_post_thumbnail()) {
 </ul>
 </div>
 </section>
-
 <div class="logo-slick my-5">
 <?php for ($i = 1; $i <= 7; $i++): ?>
 <span><img src="<?php echo $wp_url; ?>/dist/images/lp_logo_2_<?php echo $i; ?>.png" alt="Webマーケの事例-<?php echo $i; ?>" srcset="<?php echo $wp_url; ?>/dist/images/lp_logo_2_<?php echo $i; ?>.png 1x, <?php echo $wp_url; ?>/dist/images/lp_logo_2_<?php echo $i; ?>@2x.png 2x"></span>
 <?php endfor; ?>
 </div>
-
 <?php get_footer();

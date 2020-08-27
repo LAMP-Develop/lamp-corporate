@@ -2,7 +2,6 @@
 $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 get_header(); the_post();
-
 global $post;
 $slug = $post->post_name;
 if (has_post_thumbnail()) {
@@ -11,7 +10,6 @@ if (has_post_thumbnail()) {
     $thumbnail = '';
 }
 ?>
-
 <section id="sub-visual" <?php echo $thumbnail; ?>>
 <span class="bg"></span>
 <div class="container">
@@ -20,11 +18,9 @@ if (has_post_thumbnail()) {
 </div>
 </div>
 </section>
-
 <section class="sec">
 <div class="container">
 <div class="singlepost"><?php the_content(); ?></div>
 </div>
 </section>
-
 <?php get_footer();

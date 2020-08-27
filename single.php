@@ -2,7 +2,6 @@
 $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 get_header(); ?>
-
 <section id="sub-visual" <?php echo $thumbnail; ?>>
 <span class="bg"></span>
 <div class="container">
@@ -11,7 +10,6 @@ get_header(); ?>
 </div>
 </div>
 </section>
-
 <article class="py-5 singlepost">
 <div class="container">
 <?php if (have_posts()): while (have_posts()): the_post(); ?>
@@ -24,5 +22,4 @@ get_header(); ?>
 </div>
 </div>
 </article>
-
 <?php get_footer();

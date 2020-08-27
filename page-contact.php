@@ -5,7 +5,6 @@ Template Name: お問い合わせ
 $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 get_header(); the_post();
-
 global $post;
 $slug = $post->post_name;
 if (has_post_thumbnail()) {
@@ -14,7 +13,6 @@ if (has_post_thumbnail()) {
     $thumbnail = '';
 }
 ?>
-
 <section id="sub-visual" <?php echo $thumbnail; ?>>
 <span class="bg"></span>
 <div class="container">
@@ -23,7 +21,6 @@ if (has_post_thumbnail()) {
 </div>
 </div>
 </section>
-
 <section class="sec">
 <div class="container">
 <h2 class="h4 font-weight-bold text-center mb-4">お問い合わせについて</h2>
@@ -32,5 +29,4 @@ if (has_post_thumbnail()) {
 <?php the_content(); ?>
 </div>
 </section>
-
 <?php get_footer();

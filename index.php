@@ -1,11 +1,9 @@
 <?php
 $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
-
 $path = explode("/", substr($_SERVER['REQUEST_URI'], 0, -1));
 $now_slug = end($path);
 get_header(); ?>
-
 <section id="sub-visual" <?php echo $thumbnail; ?>>
 <span class="bg"></span>
 <div class="container">
@@ -14,16 +12,14 @@ get_header(); ?>
 </div>
 </div>
 </section>
-
 <section class="sec">
 <div class="container">
-
 <div class="newslist__cats">
 <?php
 if ($now_slug === 'newslist') {
-  $cat_class = 'active';
+    $cat_class = 'active';
 } else {
-  $cat_class = '';
+    $cat_class = '';
 }
 ?>
 <a class="<?php echo $cat_class; ?>" href="<?php echo $home; ?>/newslist/">すべて</a>
@@ -39,7 +35,6 @@ if ($now_slug === $cat->slug) {
 <a class="<?php echo $cat_class; ?>" href="<?php echo $home.'/'.$cat->slug; ?>"><?php echo $cat->name; ?></a>
 <?php endforeach; ?>
 </div>
-
 <div class="newslist__list">
 <?php
 if (have_posts()): while (have_posts()):
@@ -68,8 +63,6 @@ if (has_post_thumbnail()) {
 <?php endwhile; endif; ?>
 </div>
 <?php wp_pagenavi(); ?>
-
 </div>
 </section>
-
 <?php get_footer();
