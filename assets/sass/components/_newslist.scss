@@ -1,4 +1,28 @@
 .newslist {
+  &__cats {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    a {
+      display: block;
+      color: $body-color;
+      font-weight: bold;
+      margin-right: 2em;
+      padding-bottom: 0.5em;
+      @include media-breakpoint-down(md) {
+        margin-right: 1.5em;
+        font-size: $font-size-sm;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+      &.active {
+        border-bottom: 2px solid $body-color;
+      }
+    }
+  }
   &__list {
     display: flex;
     justify-content: flex-start;
@@ -13,6 +37,7 @@
       @include media-breakpoint-down(md) {
         width: 100%;
         margin-right: 0;
+        margin-bottom: 1rem;
       }
       &:nth-child(3n) {
         margin-right: 0;
