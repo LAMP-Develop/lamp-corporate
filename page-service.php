@@ -50,8 +50,8 @@ if (has_post_thumbnail()) {
 </div>
 </div>
 <div class="text-md-left text-center">
-<a class="btn btn-warning mr-md-1 mb-md-0 mb-3" href="https://system.take-eats.jp/" target="_blank">サービスサイトへ<i class="fas fa-long-arrow-alt-right ml-3"></i></a>
-<a class="btn btn-outline-dark" href="https://take-eats.jp/" target="_blank">デモページへ<i class="fas fa-long-arrow-alt-right ml-3"></i></a>
+<a class="btn btn-warning" href="https://system.take-eats.jp/" target="_blank">サービスサイトへ<i class="fas fa-long-arrow-alt-right ml-3"></i></a>
+<!-- <a class="btn btn-outline-dark" href="https://demo.take-eats.jp/" target="_blank">デモページへ<i class="fas fa-long-arrow-alt-right ml-3"></i></a> -->
 </div>
 </div>
 <div class="service__takeeats__wrap-img">
@@ -115,7 +115,7 @@ if (has_post_thumbnail()) {
 <li class="service__lists-item mb-0">
 <a href="https://seo.kagari.ai/" target="_blank">
 <div class="logo">
-<span><img src="<?php echo $wp_url; ?>/dist/images/kagari_seo.svg" alt="KAGARI"></span>
+<span><img src="<?php echo $wp_url; ?>/dist/images/logo_kagari.svg" alt="KAGARI"></span>
 </div>
 <p>WEBサイトの改善につなげるために、サイト上にあるすべてのページの検索順位を可視化したり、アクセス解析レポートの自動作成で業務を効率化することができるツールを提供しています。</p>
 <p class="mb-0 text-right">詳しく見る <i class="fas fa-chevron-right"></i></p>
