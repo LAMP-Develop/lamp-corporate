@@ -17,7 +17,7 @@ get_header(); the_post(); ?>
 <img src="<?php echo $wp_url; ?>/dist/images/message.png" alt="河野 匠">
 </div>
 <div class="recruit__message-txt">
-<img src="<?php echo $wp_url; ?>/dist/images/about_txt.png" alt="message">
+<img src="<?php echo $wp_url; ?>/dist/images/mission_txt.png" alt="message">
 <div class="recruit__message-box">
 <p class="ttl">これまでの飲食業界のビジネスモデルを覆し、多種多様な食文化を永続させる。</p>
 <p class="mb-0">アフターコロナに向け、従来の営業ができなくなった飲食店に対してテイクアウトやデリバリーなどの”中食文化”を私たちが持つデジタルの力で推進し、新たな収益源を生み出すことで地域社会に貢献することが私たちのミッションです。</p>
