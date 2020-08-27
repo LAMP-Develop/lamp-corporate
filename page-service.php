@@ -34,7 +34,7 @@ if (has_post_thumbnail()) {
 <div class="service__takeeats__wrap-logo">
 <img src="<?php echo $wp_url; ?>/dist/images/logo_takeeats_1.png" alt="TakeEats" srcset="<?php echo $wp_url; ?>/dist/images/logo_takeeats_1.png 1x, <?php echo $wp_url; ?>/dist/images/logo_takeeats_1@2x.png 2x">
 </div>
-<p>飲食店オーナー様向けのテイクアウト（お持ち帰り）に特化した予約・決済システムです。サービスの拡大やシステムの導入を検討している飲食店オーナー様のご要望にお応えするために生まれました。</p>
+<p>飲食店オーナー様向けのテイクアウトに特化した予約・決済システムです。初期費用・月額費用が無料で最短1営業日からスマホ事前予約や全国配送の受付がスタートできます。</p>
 <div class="service__takeeats__wrap-futures">
 <div>
 <p>初期費用</p>
@@ -50,7 +50,8 @@ if (has_post_thumbnail()) {
 </div>
 </div>
 <div class="text-md-left text-center">
-<a class="btn btn-outline-dark" href="https://system.take-eats.jp/" target="_blank">サービスサイトへ<i class="fas fa-long-arrow-alt-right ml-3"></i></a>
+<a class="btn btn-warning mr-md-1 mb-md-0 mb-3" href="https://system.take-eats.jp/" target="_blank">サービスサイトへ<i class="fas fa-long-arrow-alt-right ml-3"></i></a>
+<a class="btn btn-outline-dark" href="https://take-eats.jp/" target="_blank">デモページへ<i class="fas fa-long-arrow-alt-right ml-3"></i></a>
 </div>
 </div>
 <div class="service__takeeats__wrap-img">
@@ -63,7 +64,7 @@ if (has_post_thumbnail()) {
 <div class="service__takeeats__wrap-logo">
 <img src="<?php echo $wp_url; ?>/dist/images/logo_takeeats_2.png" alt="TakeEats" srcset="<?php echo $wp_url; ?>/dist/images/logo_takeeats_2.png 1x, <?php echo $wp_url; ?>/dist/images/logo_takeeats_2@2x.png 2x">
 </div>
-<p>全国3万店舗掲載のテイクアウトに特化した検索サイトです。<br>エリアや料理のジャンル、人気の店舗などからお店を検索することが出来ます。</p>
+<p>全国3万店舗掲載のテイクアウトに特化した検索メディアです。<br>スマホで現在地から近くのテイクアウト可能店がヒットし、料理のジャンルやレビューで絞り込むことができます。</p>
 <div class="service__takeeats__wrap-futures">
 <div>
 <p>登録店舗</p>
@@ -79,7 +80,7 @@ if (has_post_thumbnail()) {
 </div>
 </div>
 <div class="text-md-left text-center">
-<a class="btn btn-outline-dark" href="https://take-eats.jp/" target="_blank">お店検索サイトへ<i class="fas fa-long-arrow-alt-right ml-3"></i></a>
+<a class="btn btn-warning" href="https://take-eats.jp/" target="_blank">お店検索サイトへ<i class="fas fa-long-arrow-alt-right ml-3"></i></a>
 </div>
 </div>
 <div class="service__takeeats__wrap-img">

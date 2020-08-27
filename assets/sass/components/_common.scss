@@ -37,12 +37,22 @@ button:focus {
   min-width: 250px;
   font-size: $font-size-sm;
   line-height: 1;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
+  font-weight: bold;
+  @include media-breakpoint-down(sm) {
+    display: block;
+    width: 100%;
+  }
   & > i {
     position: absolute;
     top: 50%;
     right: 1.8rem;
     transform: translateY(-50%);
+    transition: all 0.3s;
+  }
+  &:hover {
+    & > i {
+      right: 1.65rem;
+    }
   }
 }
 

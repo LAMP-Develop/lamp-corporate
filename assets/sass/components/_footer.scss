@@ -12,9 +12,6 @@
     padding: 0;
     margin: 2rem 0;
     text-align: center;
-    @include media-breakpoint-down(md) {
-      text-align-last: left;
-    }
     li {
       display: inline-block;
       vertical-align: middle;

@@ -66,10 +66,10 @@ get_header(); the_post(); ?>
 
 <div class="joblist">
 <div class="joblist-sort">
-<button class="btn btn-outline-dark active" data-group="all">すべて</button>
-<button class="btn btn-outline-success" data-group="career">キャリア採用</button>
-<button class="btn btn-outline-primary" data-group="intern">新卒・インターン</button>
-<button class="btn btn-outline-warning" data-group="parttime">アルバイト・パート</button>
+<button class="d-inline-block w-auto btn btn-outline-dark active" data-group="all">すべて</button>
+<button class="d-inline-block w-auto btn btn-outline-success" data-group="career">キャリア採用</button>
+<button class="d-inline-block w-auto btn btn-outline-primary" data-group="intern">新卒・インターン</button>
+<button class="d-inline-block w-auto btn btn-outline-warning" data-group="parttime">アルバイト・パート</button>
 </div>
 
 <div class="joblist-grid">
