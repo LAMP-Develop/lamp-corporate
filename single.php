@@ -19,7 +19,7 @@ get_header(); ?>
 <p class="singlepost-time"><span><i class="far fa-calendar-alt mr-2"></i><?php the_time('Y.m.d'); ?></span></p>
 <?php the_content(); ?>
 <?php endwhile; endif; ?>
-<div class="text-center mt-4">
+<div class="text-center mt-5">
 <a class="btn btn-outline-dark" href="<?php echo $home; ?>/newslist/">一覧に戻る</a>
 </div>
 </div>
