@@ -13,6 +13,12 @@
   }
   p {
     font-size: $font-size-sm;
+    a {
+      text-decoration: underline;
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
   h2,
   h3,
