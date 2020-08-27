@@ -137,6 +137,7 @@
     align-items: flex-start;
     flex-wrap: wrap;
     margin-top: 3rem;
+    min-height: 500px;
     @include media-breakpoint-down(md) {
       width: 100%;
       margin: 0 0 1rem;
