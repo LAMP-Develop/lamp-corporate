@@ -222,4 +222,13 @@
       }
     }
   }
+  &-must {
+    text-align: center;
+    margin: 1.5rem 0 1rem;
+    span {
+      font-size: $font-size-sm;
+      font-weight: bold;
+      background:linear-gradient(transparent 60%, rgba($warning, 0.6) 60%);
+    }
+  }
 }

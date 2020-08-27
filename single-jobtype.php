@@ -30,7 +30,7 @@ $job_arr = get_field_objects(get_the_ID());
 </tr>
 <?php
 foreach ($job_arr as $key => $job_field):
-  if ($key === 'job_desc') {
+  if ($key === 'job_desc' || $key === 'job_must') {
       continue;
   }
 ?>
