@@ -4,8 +4,8 @@ $wp_url = get_template_directory_uri();
 get_header(); ?>
 <section id="main-visual">
 <div class="inner">
-<p class="tlt">DX Platform to Society.<br>from KYOTO</p>
-<p class="desc">株式会社ランプは京都を拠点に全国の飲食店の中食産業にDXプラットフォームを提供するスタートアップ企業です。
+<p class="tlt">DX Platform to Society<br>from KYOTO.</p>
+<p class="desc">株式会社ランプは京都にあるベンチャー企業です。
 <br>創業以来8年間、200社以上の中小企業のWEBマーケティングを支援したのち、アフターコロナに向けて地域社会に貢献するべく立ち上がりました。</p>
 </div>
 <div class="scroll"><a href="#skip-content">SCROLL DOWN<i class="fas fa-long-arrow-alt-down"></i></a></div>

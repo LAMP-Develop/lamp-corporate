@@ -103,7 +103,7 @@ if (has_post_thumbnail()) {
 <p class="mb-0 text-right">詳しく見る <i class="fas fa-chevron-right"></i></p>
 </a>
 </li>
-<li class="service__lists-item mb-0">
+<li class="service__lists-item">
 <a href="https://seo.kagari.ai/" target="_blank">
 <div class="logo">
 <span><img src="<?php echo $wp_url; ?>/dist/images/logo_kagari.svg" alt="KAGARI"></span>
@@ -112,10 +112,19 @@ if (has_post_thumbnail()) {
 <p class="mb-0 text-right">詳しく見る <i class="fas fa-chevron-right"></i></p>
 </a>
 </li>
+<li class="service__lists-item mb-0">
+<a href="https://kyoto-masters.com/" target="_blank">
+<div class="logo">
+<span><img src="<?php echo $wp_url; ?>/dist/images/logo_km.svg" alt="kyoto-masters"></span>
+</div>
+<p>京都の観光情報を5ヶ国語（日本語・英語・韓国語・中国簡体字・中国繁体字）に翻訳し、WEBサイト・提携宿泊施設から配信をしているソリューションです。</p>
+<p class="mb-0 text-right">詳しく見る <i class="fas fa-chevron-right"></i></p>
+</a>
+</li>
 </ul>
 </div>
 </section>
-<div class="logo-slick my-5">
+<div class="logo-slick mt-4 mb-5">
 <?php for ($i = 1; $i <= 7; $i++): ?>
 <span><img src="<?php echo $wp_url; ?>/dist/images/lp_logo_2_<?php echo $i; ?>.png" alt="Webマーケの事例-<?php echo $i; ?>" srcset="<?php echo $wp_url; ?>/dist/images/lp_logo_2_<?php echo $i; ?>.png 1x, <?php echo $wp_url; ?>/dist/images/lp_logo_2_<?php echo $i; ?>@2x.png 2x"></span>
 <?php endfor; ?>

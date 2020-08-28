@@ -134,7 +134,7 @@
   &-grid {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: stretch;
     flex-wrap: wrap;
     margin-top: 3rem;
     min-height: 500px;
@@ -144,11 +144,12 @@
     }
   }
   &-item {
+    position: relative;
     width: 23%;
     margin: 0 1% 2%;
     background-color: $white;
-    border: 5px solid $secondary;
-    padding: 1.5rem 0.875rem 1rem;
+    box-shadow: 0 0 1rem rgba($body-color, 0.1);
+    padding: 1.5rem 1rem 4.5rem;
     @include media-breakpoint-down(md) {
       width: 100%;
       margin: 0 0 1rem;
@@ -210,15 +211,21 @@
     color: rgba($body-color, 0.8);
   }
   &-btn {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    width: calc(100% - 2rem);
     a {
       display: block;
-      background-color: $body-color;
-      color: $white;
+      border: 2px solid $body-color;
+      color: $body-color;
       text-align: center;
       font-size: $font-size-sm;
-      padding: 1rem;
+      padding: $font-size-sm 1rem;
+      font-weight: bold;
       &:hover {
-        opacity: 0.7;
+        color: $white;
+        background-color: $body-color;
       }
     }
   }

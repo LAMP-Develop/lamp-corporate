@@ -6,6 +6,9 @@ $wp_url = get_template_directory_uri();
 <!-- main end -->
 <footer id="footer">
 <div class="container">
+
+<div class="row align-items-end">
+<div class="col-md-8">
 <div class="logo">
 <a href="<?php echo $home; ?>/">
 <img src="<?php echo $wp_url; ?>/dist/images/foot_logo.svg" alt="京都のコンテンツマーケティング会社「株式会社ランプ」">
@@ -19,8 +22,12 @@ $wp_url = get_template_directory_uri();
 <li><a href="<?php echo $home; ?>/recruit/">採用情報</a></li>
 <li><a href="<?php echo $home; ?>/contact/">お問い合わせ</a></li>
 </ul>
+</div>
+<div class="col-md-4">
 <div class="sns">
 <a href="https://www.facebook.com/KYOTO.LAMP/" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+</div>
+</div>
 </div>
 </div>
 <div class="copy">

@@ -146,14 +146,14 @@
       position: relative;
       background-color: $white;
       list-style: none;
-      width: 48%;
+      width: 32%;
       @include media-breakpoint-down(md) {
         width: 100%;
         margin-bottom: 1rem;
       }
       & > a {
         display: block;
-        padding: 3rem;
+        padding: 3rem 2rem;
         color: $body-color;
         @include media-breakpoint-down(md) {
           padding: 2rem;
@@ -172,7 +172,10 @@
           margin-bottom: 1rem;
         }
         img {
-          width: 200px;
+          max-width: 300px;
+          min-width: 200px;
+          max-height: 50px;
+          width: 100%;
           height: auto;
         }
       }

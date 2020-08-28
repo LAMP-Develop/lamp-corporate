@@ -69,7 +69,7 @@
         text-align: center;
         font-size: $font-size-sm;
         font-weight: bold;
-        padding: 0 1rem;
+        padding: 0 1.5rem;
         @include media-breakpoint-down(md) {
           font-size: 1.2rem;
           box-sizing: border-box;
@@ -166,12 +166,13 @@
   font-size: 10px;
   font-weight: bold;
   line-height: 1;
+  left: 0;
   bottom: 8px;
   display: block;
+  width: 100%;
   text-align: center;
   margin: 0;
   padding: 0;
-  letter-spacing: normal;
 }
 
 .drawer-open .drawer-hamburger-icon {

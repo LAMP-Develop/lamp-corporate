@@ -4,6 +4,17 @@
   @include media-breakpoint-down(md) {
     min-height: 1px;
   }
+  &::before {
+    z-index: -1;
+    content: "";
+    display: block;
+    width: 30vw;
+    height: 80%;
+    position: absolute;
+    top: -50%;
+    left: 0;
+    background: $secondary;
+  }
   img {
     position: absolute;
     top: 50%;
