@@ -23,7 +23,7 @@ if (has_post_thumbnail()) {
 </section>
 <section class="sec">
 <div class="container">
-<h2 class="ttl-h2">SERVICE<span>私たちが展開するサービス</span></h2>
+<!-- <h2 class="ttl-h2">SERVICE<span>私たちが展開するサービス</span></h2> -->
 <div class="service__takeeats">
 <div class="service__takeeats__wrap">
 <div class="service__takeeats__wrap-txt">

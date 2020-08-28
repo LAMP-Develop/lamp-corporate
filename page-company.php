@@ -157,10 +157,11 @@ if (has_post_thumbnail()) {
 </ul>
 </div>
 </section>
-<section id="history" class="sec">
+<section id="history" class="sec bg-secondary">
 <div class="container">
 <h2 class="ttl-h2">HISTORY<span>沿革</span></h2>
-<table class="history-tb">
+<div class="bg-white p-md-4 p-3">
+<table class="history-tb w-100">
 <tbody>
 <tr>
 <th rowspan="2">2011年</th>
@@ -205,6 +206,7 @@ if (has_post_thumbnail()) {
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 </section>
 <?php get_footer();
