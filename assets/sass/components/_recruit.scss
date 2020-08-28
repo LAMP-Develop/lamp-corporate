@@ -134,7 +134,7 @@
   &-grid {
     display: flex;
     justify-content: flex-start;
-    align-items: stretch;
+    align-items: flex-start;
     flex-wrap: wrap;
     margin-top: 3rem;
     min-height: 500px;
@@ -144,12 +144,11 @@
     }
   }
   &-item {
-    position: relative;
     width: 23%;
     margin: 0 1% 2%;
     background-color: $white;
     box-shadow: 0 0 1rem rgba($body-color, 0.1);
-    padding: 1.5rem 1rem 4.5rem;
+    padding: 1.5rem 1rem 1rem;
     @include media-breakpoint-down(md) {
       width: 100%;
       margin: 0 0 1rem;
@@ -211,10 +210,6 @@
     color: rgba($body-color, 0.8);
   }
   &-btn {
-    position: absolute;
-    bottom: 1rem;
-    left: 1rem;
-    width: calc(100% - 2rem);
     a {
       display: block;
       border: 2px solid $body-color;

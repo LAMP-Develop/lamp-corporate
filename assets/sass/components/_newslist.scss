@@ -26,14 +26,16 @@
   &__list {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: stretch;
     flex-wrap: wrap;
     &-item {
+      position: relative;
       width: 32%;
       margin-right: 2%;
       margin-bottom: 2%;
       box-shadow: 0 0 1rem rgba($body-color, 0.1);
       transition: all 0.3s;
+      background-color: $body-color;
       @include media-breakpoint-down(md) {
         width: 100%;
         margin-right: 0;
@@ -55,7 +57,6 @@
       }
     }
     &-txt {
-      background-color: $body-color;
       color: $white;
       padding: 1.5rem 2rem;
     }
