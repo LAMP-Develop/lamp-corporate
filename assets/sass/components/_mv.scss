@@ -6,9 +6,15 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+    background-image: url("../images/main_visual@2x.png");
+  }
   @include media-breakpoint-down(md) {
     background-image: url("../images/sp_main_visual.png");
     height: 85vh;
+    @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+      background-image: url("../images/sp_main_visual@2x.png");
+    }
   }
   &.recruit-visual {
     background-image: url("../images/mv_recruit.png");

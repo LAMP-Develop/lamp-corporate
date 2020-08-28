@@ -6,9 +6,9 @@ get_header(); ?>
 <div class="inner">
 <p class="tlt">DX Platform to Society<br>from KYOTO.</p>
 <p class="desc">株式会社ランプは京都にあるベンチャー企業です。
-<br>創業以来8年間、200社以上の中小企業のWEBマーケティングを支援したのち、アフターコロナに向けて地域社会に貢献するべく立ち上がりました。</p>
+<br>創業以来8年間、200社以上の中小企業のWEBマーケティングを支援したのち、<br class="d-md-inline d-none">アフターコロナに向けて地域社会に貢献するべく立ち上がりました。</p>
 </div>
-<div class="scroll"><a href="#skip-content">SCROLL DOWN<i class="fas fa-long-arrow-alt-down"></i></a></div>
+<div class="scroll"><a class="text-uppercase" href="#skip-content">Scrolldown<i class="fas fa-long-arrow-alt-down"></i></a></div>
 </section>
 <div id="skip-content"></div>
 <section id="home-news" class="sec bg-diagonal">
@@ -46,7 +46,7 @@ if (has_post_thumbnail()) {
 </a>
 <?php endforeach; wp_reset_postdata(); ?>
 </div>
-<div class="more-btn">
+<div class="more-btn mt-md-5">
 <a href="<?php echo $home; ?>/newslist/">VIEW MORE<i class="fas fa-long-arrow-alt-right ml-3"></i></a>
 </div>
 </div>
