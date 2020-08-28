@@ -55,11 +55,11 @@ if (has_post_thumbnail()) {
 <table>
 <tbody>
 <tr>
-<th>社名</th>
+<th class="text-nowrap">社名</th>
 <td>株式会社ランプ</td>
 </tr>
 <tr>
-<th>所在地</th>
+<th class="text-nowrap">所在地</th>
 <td>〒604-0024
 <br>京都府京都市中京区下妙覚寺町195 KMGビル4F
 <br><a href="https://goo.gl/maps/YpF8QH1gtNgMS4of8" target="_blank" rel="noopener">GoogleMapを開く&nbsp;&gt;</a><br>
@@ -75,34 +75,34 @@ if (has_post_thumbnail()) {
 </td>
 </tr>
 <tr>
-<th>TEL</th>
+<th class="text-nowrap">TEL</th>
 <td>075-600-2721<br>
 <a href="<?php echo $home; ?>/contact/">お問い合わせはこちら&nbsp;&gt;</a></td>
 </tr>
 <tr>
-<th>事業内容</th>
+<th class="text-nowrap">事業内容</th>
 <td>テイクアウト専用プラットフォーム「TakeEats」の開発・運営
 <br>全国のテイクアウトできるお店検索メディア「TakeEatsお店検索」の企画・運営
 <br>WEBマーケティング支援事業</td>
 </tr>
 <tr>
-<th>代表者</th>
+<th class="text-nowrap">代表者</th>
 <td>代表取締役　河野 匠</td>
 </tr>
 <tr>
-<th>設立</th>
+<th class="text-nowrap">設立</th>
 <td>2017年2月（創業2011年5月）</td>
 </tr>
 <tr>
-<th>資本金</th>
+<th class="text-nowrap">資本金</th>
 <td>4,000,000円</td>
 </tr>
 <tr>
-<th>従業員数</th>
+<th class="text-nowrap">従業員数</th>
 <td>18名(アルバイト含む)</td>
 </tr>
 <tr>
-<th>主な取引先(敬称略)</th>
+<th class="text-nowrap">主な取引先<br>(敬称略)</th>
 <td>
 <div class="row m-0">
 <div class="col-md p-0">
@@ -136,13 +136,13 @@ if (has_post_thumbnail()) {
 </td>
 </tr>
 <tr>
-<th>資格・受賞歴</th>
+<th class="text-nowrap">資格・受賞歴</th>
 <td>
-<ul class="pl-4 m-0">
-<li>Booming!5.0</li>
-<li>Google 広告の認定資格</li>
-<li>西日本ベンチャー</li>
-</ul>
+<div class="d-flex align-items-center flex-wrap">
+<span class="d-block mr-md-3"><img src="<?php echo $wp_url; ?>/dist/images/booming.png" alt="Booming!5.0"></span>
+<span class="d-block mr-md-3 my-md-0 my-3"><img src="<?php echo $wp_url; ?>/dist/images/west_venture.png" alt="西日本ベンチャー"></span>
+<span class="d-block"><img src="<?php echo $wp_url; ?>/dist/images/google_ads.png" alt="Google広告の認定資格"></span>
+</div>
 </td>
 </tr>
 </tbody>
@@ -192,7 +192,7 @@ if (has_post_thumbnail()) {
 <td>最年少（当時）で「注目の西日本ベンチャー50」に選出される</td>
 </tr>
 <tr>
-<th>2016年</th>
+<th class="text-nowrap">2016年</th>
 <td>12月</td>
 <td>京都のニッチな情報を世界中に配信する多言語メディアサイト「KyotoMasters」公開</td>
 </tr>
@@ -213,6 +213,23 @@ if (has_post_thumbnail()) {
 <tr>
 <td>10月</td>
 <td>アクセス解析ツール「KAGARI」リリース</td>
+</tr>
+<tr>
+<th rowspan="4">2020年</th>
+<td>6月</td>
+<td>テイクアウトに専用の予約プラットフォーム「TakeEats」をリリース</td>
+</tr>
+<tr>
+<td>7月</td>
+<td>全国のテイクアウトできるお店検索メディア「TakeEatsお店検索」をリリース</td>
+</tr>
+<tr>
+<td>8月</td>
+<td>大阪府ベンチャー企業成長プロジェクト「Booming大阪5.0」に第1位で選出</td>
+</tr>
+<tr>
+<td>9月</td>
+<td>事業拡大に伴い4度目となるオフィス移転（京都市中京区）</td>
 </tr>
 </tbody>
 </table>

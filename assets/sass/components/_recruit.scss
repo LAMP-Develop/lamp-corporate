@@ -136,14 +136,14 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin-top: 3rem;
+    margin-top: 3.5rem;
     min-height: 500px;
     @include media-breakpoint-down(md) {
-      width: 100%;
-      margin: 0 0 1rem;
+      margin-top: 0;
     }
   }
   &-item {
+    position: relative;
     width: 23%;
     margin: 0 1% 2%;
     background-color: $white;
@@ -151,7 +151,7 @@
     padding: 1.5rem 1rem 1rem;
     @include media-breakpoint-down(md) {
       width: 100%;
-      margin: 0 0 1rem;
+      margin: 3rem 0 0;
     }
     &.career {
       .joblist-type {
@@ -225,8 +225,11 @@
     }
   }
   &-must {
+    position: absolute;
+    top: -2rem;
+    left: 0;
     text-align: center;
-    margin: 1.5rem 0 1rem;
+    width: 100%;
     span {
       font-size: $font-size-sm;
       font-weight: bold;

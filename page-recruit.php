@@ -86,15 +86,15 @@ $job_place = get_field('job_place');
 $job_must = get_field('job_must');
 ?>
 <div class="joblist-item all <?php echo $job_el; ?>">
-<p class="joblist-type"><span><?php echo $job_type; ?></span></p>
-<h3 class="joblist-ttl"><?php echo $t; ?></h3>
-<p class="joblist-desc"><?php echo $job_desc; ?></p>
-<p class="joblist-place">勤務地：<?php echo $job_place; ?></p>
 <?php if ($job_must): ?>
 <div class="joblist-must">
 <span>＼ 積極採用中！ ／</span>
 </div>
 <?php endif; ?>
+<p class="joblist-type"><span><?php echo $job_type; ?></span></p>
+<h3 class="joblist-ttl"><?php echo $t; ?></h3>
+<p class="joblist-desc"><?php echo $job_desc; ?></p>
+<p class="joblist-place">勤務地：<?php echo $job_place; ?></p>
 <div class="joblist-btn">
 <a href="<?php echo $p; ?>">募集要項をみる</a>
 </div>

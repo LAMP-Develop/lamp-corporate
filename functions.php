@@ -105,7 +105,7 @@ function twpp_enqueue_styles()
         'main-style',
         get_template_directory_uri().'/dist/css/style.css',
         [],
-        '1.1.0',
+        '1.1.1',
         'all'
     );
 }
