@@ -135,6 +135,16 @@ if (has_post_thumbnail()) {
 </div>
 </td>
 </tr>
+<tr>
+<th>資格・受賞歴</th>
+<td>
+<ul class="pl-4 m-0">
+<li>Booming!5.0</li>
+<li>Google 広告の認定資格</li>
+<li>西日本ベンチャー</li>
+</ul>
+</td>
+</tr>
 </tbody>
 </table>
 </div>
