@@ -30,6 +30,5 @@ if (has_post_thumbnail()) {
 </section>
 <script>
 document.getElementById("your-job").value = "<?php echo $job_name; ?>";
-document.getElementById("your-job").setAttribute("disabled", false);
 </script>
 <?php get_footer();
