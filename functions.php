@@ -1,5 +1,7 @@
 <?php
 
+error_reporting(0);
+
 // アイキャッチ設定
 add_theme_support('post-thumbnails');
 
