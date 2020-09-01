@@ -62,9 +62,9 @@ if (has_post_thumbnail()) {
 <th class="text-nowrap">所在地</th>
 <td>〒604-0024
 <br>京都府京都市中京区下妙覚寺町195 KMGビル4F
-<br><a href="https://goo.gl/maps/YpF8QH1gtNgMS4of8" target="_blank" rel="noopener">GoogleMapを開く&nbsp;&gt;</a><br>
+<br><a href="https://goo.gl/maps/AEpekizNcFW6MAbU6" target="_blank" rel="noopener">GoogleMapを開く&nbsp;&gt;</a><br>
 <div class="mb-3">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d816.9498904256012!2d135.75689922920367!3d35.0117222971837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010886b81f2edb%3A0xad193671c90bf008!2z44CSNjA0LTAwMjQg5Lqs6YO95bqc5Lqs6YO95biC5Lit5Lqs5Yy65LiL5aaZ6Kaa5a-655S677yR77yZ77yV4oiS77yS!5e0!3m2!1sja!2sjp!4v1598234109278!5m2!1sja!2sjp" allowfullscreen="" height="300"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.798695649661!2d135.75519041518464!3d35.0117439740035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010883810d04b5%3A0x36021c8bc8d70a76!2z5qCq5byP5Lya56S-44Op44Oz44OX!5e0!3m2!1sja!2sjp!4v1598941397679!5m2!1sja!2sjp" height="300"></iframe>
 </div>
 <span class="font-weight-bold d-block mb-2">交通のご案内</span>
 <ul class="pl-3 m-0">
