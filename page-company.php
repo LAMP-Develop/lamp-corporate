@@ -26,7 +26,7 @@ if (has_post_thumbnail()) {
 <ul class="local-menu">
 <li><a href="#concept" target="_self">ビジョン <i class="fas fa-angle-down"></i></a></li>
 <li><a href="#company-profile" target="_self">会社概要 <i class="fas fa-angle-down"></i></a></li>
-<li><a href="#member" target="_self">経営メンバー <i class="fas fa-angle-down"></i></a></li>
+<li><a href="#member" target="_self">経営陣 <i class="fas fa-angle-down"></i></a></li>
 <li><a href="#history" target="_self">沿革 <i class="fas fa-angle-down"></i></a></li>
 </ul>
 </div>
@@ -50,7 +50,7 @@ if (has_post_thumbnail()) {
 </section>
 <section id="company-profile" class="sec bg-secondary">
 <div class="container">
-<h2 class="ttl-h2">COMPANY PROFILE<span>会社概要</span></h2>
+<h2 class="ttl-h2">PROFILE<span>会社概要</span></h2>
 <div class="table-wrap bg-white">
 <table>
 <tbody>
@@ -76,14 +76,13 @@ if (has_post_thumbnail()) {
 </tr>
 <tr>
 <th class="text-nowrap">TEL</th>
-<td>075-600-2721<br>
-<a href="<?php echo $home; ?>/contact/">お問い合わせはこちら&nbsp;&gt;</a></td>
+<td>075-600-2721</td>
 </tr>
 <tr>
 <th class="text-nowrap">事業内容</th>
-<td>テイクアウト専用プラットフォーム「TakeEats」の開発・運営
-<br>全国のテイクアウトできるお店検索メディア「TakeEatsお店検索」の企画・運営
-<br>WEBマーケティング支援事業</td>
+<td>・テイクアウト専用プラットフォーム「TakeEats」の開発・運営
+<br>・全国のテイクアウトできるお店検索メディア「TakeEatsお店検索」の企画・運営
+<br>・WEBマーケティング支援事業</td>
 </tr>
 <tr>
 <th class="text-nowrap">代表者</th>
@@ -109,24 +108,28 @@ if (has_post_thumbnail()) {
 京都府庁
 <br>株式会社京進
 <br>エムケイ株式会社
+<br>京都大学
+<br>池坊華道会
 <br>株式会社近鉄・都ホテルズ
+<br>同志社大学
 <br>株式会社関電アメニックス
 <br>トビラシステムズ株式会社
 <br>株式会社スマートバリュー
 <br>株式会社小林洋行
 <br>アイエーグループ株式会社
-<br>日本ルナ株式会社
-<br>株式会社ベイシス
+<br>株式会社ロマンライフ
 </div>
 <div class="col-md p-0">
 株式会社エス・ティーホテルズ
+<br>日本ルナ株式会社
 <br>株式会社コスモスモア
 <br>エムケイ石油株式会社
-<br>GMOインターネット株式会社
+<br>株式会社ベイシス
 <br>さくらインターネット株式会社
 <br>株式会社読売エージェンシー
 <br>株式会社テレビ愛知企画
 <br>森の京都地域振興社
+<br>株式会社花洛
 <br>株式会社黛
 <br>株式会社高栄ホーム
 <br>株式会社リノア
@@ -152,7 +155,7 @@ if (has_post_thumbnail()) {
 </section>
 <section id="member" class="sec">
 <div class="container">
-<h2 class="ttl-h2">MEMBER<span>経営メンバー</span></h2>
+<h2 class="ttl-h2">MEMBER<span>経営陣</span></h2>
 <ul class="members">
 <li>
 <img src="<?php echo $wp_url; ?>/dist/images/kouno.png" alt="河野匠">
