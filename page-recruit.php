@@ -14,7 +14,7 @@ get_header(); the_post(); ?>
 <section class="sec recruit__message">
 <div class="container">
 <div class="recruit__message-pict">
-<img src="<?php echo $wp_url; ?>/dist/images/message.png" alt="河野 匠">
+<img src="<?php echo $wp_url; ?>/dist/images/message.png" alt="ランプ社員" srcset="<?php echo $wp_url; ?>/dist/images/message.png 1x, <?php echo $wp_url; ?>/dist/images/message@2x.png 2x">
 </div>
 <div class="recruit__message-txt">
 <img src="<?php echo $wp_url; ?>/dist/images/mission_txt.png" alt="message">
