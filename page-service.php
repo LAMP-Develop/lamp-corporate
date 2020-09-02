@@ -123,7 +123,7 @@ if (has_post_thumbnail()) {
 </li>
 </ul>
 </div>
-<div class="logo-slick mt-5">
+<div class="logo-slick mt-md-5 mt-4">
 <?php for ($i = 1; $i <= 7; $i++): ?>
 <span class="logo-slick-client"><img src="<?php echo $wp_url; ?>/dist/images/lp_logo_2_<?php echo $i; ?>.png" alt="Webマーケの事例-<?php echo $i; ?>" srcset="<?php echo $wp_url; ?>/dist/images/lp_logo_2_<?php echo $i; ?>.png 1x, <?php echo $wp_url; ?>/dist/images/lp_logo_2_<?php echo $i; ?>@2x.png 2x"></span>
 <?php endfor; ?>
