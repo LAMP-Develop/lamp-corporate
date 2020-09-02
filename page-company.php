@@ -143,8 +143,8 @@ if (has_post_thumbnail()) {
 <td>
 <div class="d-flex align-items-center flex-wrap">
 <span class="d-block mr-md-3"><img src="<?php echo $wp_url; ?>/dist/images/booming.png" alt="Booming!5.0"></span>
-<span class="d-block mr-md-3 my-md-0 my-3"><img src="<?php echo $wp_url; ?>/dist/images/west_venture.png" alt="西日本ベンチャー"></span>
-<span class="d-block"><img src="<?php echo $wp_url; ?>/dist/images/google_ads.png" alt="Google広告の認定資格"></span>
+<span class="d-block mr-md-3 mt-md-0 mt-3"><img src="<?php echo $wp_url; ?>/dist/images/west_venture.png" alt="西日本ベンチャー"></span>
+<!-- <span class="d-block"><img src="<?php echo $wp_url; ?>/dist/images/google_ads.png" alt="Google広告の認定資格"></span> -->
 </div>
 </td>
 </tr>

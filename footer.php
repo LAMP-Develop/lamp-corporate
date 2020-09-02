@@ -18,7 +18,7 @@ $wp_url = get_template_directory_uri();
 <li><a href="<?php echo $home; ?>/">ホーム</a></li>
 <li><a href="<?php echo $home; ?>/news/">お知らせ</a></li>
 <li><a href="<?php echo $home; ?>/company/">会社紹介</a></li>
-<li><a href="<?php echo $home; ?>/service/">事業内容</a></li>
+<li><a href="<?php echo $home; ?>/service/">サービス</a></li>
 <li><a href="<?php echo $home; ?>/recruit/">採用情報</a></li>
 <li><a href="<?php echo $home; ?>/contact/">お問い合わせ</a></li>
 </ul>

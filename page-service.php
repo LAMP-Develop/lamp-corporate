@@ -34,15 +34,15 @@ if (has_post_thumbnail()) {
 <div class="service__takeeats__wrap-futures">
 <div>
 <p>初期費用</p>
-<img src="<?php echo $wp_url; ?>/dist/images/icon_01.png" alt="初期費用" srcset="<?php echo $wp_url; ?>/dist/images/icon_01.png 1x, <?php echo $wp_url; ?>/dist/images/icon_01@2x.png 2x">
+<p><span>0</span>円</p>
 </div>
 <div>
 <p>即日対応</p>
-<img src="<?php echo $wp_url; ?>/dist/images/icon_02.png" alt="初期費用" srcset="<?php echo $wp_url; ?>/dist/images/icon_02.png 1x, <?php echo $wp_url; ?>/dist/images/icon_02@2x.png 2x">
+<p><span>0</span>円</p>
 </div>
 <div>
-<p>事前決済</p>
-<img src="<?php echo $wp_url; ?>/dist/images/icon_03.png" alt="初期費用" srcset="<?php echo $wp_url; ?>/dist/images/icon_03.png 1x, <?php echo $wp_url; ?>/dist/images/icon_03@2x.png 2x">
+<p>導入店舗</p>
+<p><span>200</span></p>
 </div>
 </div>
 <div class="text-md-left text-center">
@@ -123,10 +123,10 @@ if (has_post_thumbnail()) {
 </li>
 </ul>
 </div>
-</section>
-<div class="logo-slick mt-4 mb-5">
+<div class="logo-slick mt-5">
 <?php for ($i = 1; $i <= 7; $i++): ?>
-<span><img src="<?php echo $wp_url; ?>/dist/images/lp_logo_2_<?php echo $i; ?>.png" alt="Webマーケの事例-<?php echo $i; ?>" srcset="<?php echo $wp_url; ?>/dist/images/lp_logo_2_<?php echo $i; ?>.png 1x, <?php echo $wp_url; ?>/dist/images/lp_logo_2_<?php echo $i; ?>@2x.png 2x"></span>
+<span class="logo-slick-client"><img src="<?php echo $wp_url; ?>/dist/images/lp_logo_2_<?php echo $i; ?>.png" alt="Webマーケの事例-<?php echo $i; ?>" srcset="<?php echo $wp_url; ?>/dist/images/lp_logo_2_<?php echo $i; ?>.png 1x, <?php echo $wp_url; ?>/dist/images/lp_logo_2_<?php echo $i; ?>@2x.png 2x"></span>
 <?php endfor; ?>
 </div>
+</section>
 <?php get_footer();

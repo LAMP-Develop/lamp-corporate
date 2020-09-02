@@ -27,30 +27,30 @@ get_header(); the_post(); ?>
 </section>
 <section class="sec pb-0">
 <div class="container">
-<h2 class="ttl-h2 mb-4">VALUE<span>行動指針</span></h2>
+<h2 class="ttl-h2 mb-4">VALUE<span>5つの行動指針</span></h2>
 </div>
 <div class="bg-secondary py-5">
 <div class="container">
 <div class="recruit__value">
 <div class="recruit__value-item">
 <img src="<?php echo $wp_url; ?>/dist/images/value_01.png" alt="スピード" srcset="<?php echo $wp_url; ?>/dist/images/value_01.png 1x, <?php echo $wp_url; ?>/dist/images/value_01@2x.png 2x">
-<p>スピード</p>
+<p>1. スピード</p>
 </div>
 <div class="recruit__value-item">
 <img src="<?php echo $wp_url; ?>/dist/images/value_02.png" alt="逆算" srcset="<?php echo $wp_url; ?>/dist/images/value_02.png 1x, <?php echo $wp_url; ?>/dist/images/value_02@2x.png 2x">
-<p>逆算</p>
+<p>2. 逆算</p>
 </div>
 <div class="recruit__value-item">
 <img src="<?php echo $wp_url; ?>/dist/images/value_03.png" alt="こだわり" srcset="<?php echo $wp_url; ?>/dist/images/value_03.png 1x, <?php echo $wp_url; ?>/dist/images/value_03@2x.png 2x">
-<p>こだわり</p>
+<p>3. こだわり</p>
 </div>
 <div class="recruit__value-item">
 <img src="<?php echo $wp_url; ?>/dist/images/value_04.png" alt="整理" srcset="<?php echo $wp_url; ?>/dist/images/value_04.png 1x, <?php echo $wp_url; ?>/dist/images/value_04@2x.png 2x">
-<p>整理</p>
+<p>4. 整理</p>
 </div>
 <div class="recruit__value-item">
 <img src="<?php echo $wp_url; ?>/dist/images/value_05.png" alt="コンセンサス" srcset="<?php echo $wp_url; ?>/dist/images/value_05.png 1x, <?php echo $wp_url; ?>/dist/images/value_05@2x.png 2x">
-<p>コンセンサス</p>
+<p>5. コンセンサス</p>
 </div>
 </div>
 </div>
@@ -58,7 +58,7 @@ get_header(); the_post(); ?>
 </section>
 <section class="sec">
 <div class="container">
-<h2 class="ttl-h2">JOB LIST<span>職種一覧</span></h2>
+<h2 class="ttl-h2">JOB LIST<span>募集職種</span></h2>
 <div class="joblist">
 <div class="joblist-sort">
 <button class="d-inline-block w-auto btn btn-outline-dark active" data-group="all">すべて</button>
