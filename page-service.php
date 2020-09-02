@@ -37,7 +37,7 @@ if (has_post_thumbnail()) {
 <p><span>0</span>円</p>
 </div>
 <div>
-<p>即日対応</p>
+<p>月額費用</p>
 <p><span>0</span>円</p>
 </div>
 <div>
