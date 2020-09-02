@@ -13,14 +13,16 @@ get_header(); the_post(); ?>
 </section>
 <section class="sec recruit__message">
 <div class="container">
-<div class="recruit__message-pict">
-<img src="<?php echo $wp_url; ?>/dist/images/message.png" alt="ランプ社員" srcset="<?php echo $wp_url; ?>/dist/images/message.png 1x, <?php echo $wp_url; ?>/dist/images/message@2x.png 2x">
+<div class="row justify-content-between align-items-center">
+<div class="col-md-6">
+<img src="<?php echo $wp_url; ?>/dist/images/message_pict.png" alt="ランプ社員" srcset="<?php echo $wp_url; ?>/dist/images/message_pict.png 1x, <?php echo $wp_url; ?>/dist/images/message_pict@2x.png 2x">
 </div>
-<div class="recruit__message-txt">
-<img src="<?php echo $wp_url; ?>/dist/images/mission_txt.png" alt="message">
+<div class="col-md-5 mb-md-0 mb-4">
 <div class="recruit__message-box">
-<p class="ttl">これまでの飲食業界のビジネスモデルを覆し、多種多様な食文化を永続させる。</p>
+<p><img src="<?php echo $wp_url; ?>/dist/images/mission_txt.png" alt="message"></p>
+<p class="ttl">これまでの飲食業界<br>のビジネスモデルを覆し、<br>多種多様な食文化を永続させる。</p>
 <p class="mb-0">アフターコロナに向け、従来の営業ができなくなった飲食店に対してテイクアウトやデリバリーなどの”中食文化”を私たちが持つデジタルの力で推進し、新たな収益源を生み出すことで地域社会に貢献することが私たちのミッションです。</p>
+</div>
 </div>
 </div>
 </div>
