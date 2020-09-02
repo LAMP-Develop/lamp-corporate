@@ -13,11 +13,11 @@ get_header(); the_post(); ?>
 </section>
 <section class="sec recruit__message">
 <div class="container">
-<div class="row justify-content-between align-items-center">
-<div class="col-md-6">
-<img src="<?php echo $wp_url; ?>/dist/images/message_pict.png" alt="ランプ社員" srcset="<?php echo $wp_url; ?>/dist/images/message_pict.png 1x, <?php echo $wp_url; ?>/dist/images/message_pict@2x.png 2x">
+<div class="row justify-content-between align-items-center mx-0">
+<div class="col-md-7 px-0 ml-md-n5">
+<img class="w-100" src="<?php echo $wp_url; ?>/dist/images/message_pict.png" alt="ランプ社員" srcset="<?php echo $wp_url; ?>/dist/images/message_pict.png 1x, <?php echo $wp_url; ?>/dist/images/message_pict@2x.png 2x">
 </div>
-<div class="col-md-5 mb-md-0 mb-4">
+<div class="col-md-5 mb-md-0 mb-4 pr-0 pl-4">
 <div class="recruit__message-box">
 <p><img src="<?php echo $wp_url; ?>/dist/images/mission_txt.png" alt="message"></p>
 <p class="ttl">これまでの飲食業界<br>のビジネスモデルを覆し、<br>多種多様な食文化を永続させる。</p>
