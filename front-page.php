@@ -13,7 +13,7 @@ get_header(); ?>
 <div id="skip-content"></div>
 <section id="home-news" class="sec bg-diagonal">
 <div class="container">
-<h2 class="ttl-h2">NEWS<span>お知らせ</span></h2>
+<h2 class="ttl-h2">NEWS<span>最新情報</span></h2>
 <div class="newslist__list">
 <?php
 $args = [
@@ -59,14 +59,14 @@ if (has_post_thumbnail()) {
 <div class="service__hero-logo">
 <img src="<?php echo $wp_url; ?>/dist/images/logo_takeeats_1_w.png" alt="TakeEats" srcset="<?php echo $wp_url; ?>/dist/images/logo_takeeats_1_w.png 1x, <?php echo $wp_url; ?>/dist/images/logo_takeeats_1_w@2x.png 2x">
 </div>
-<p class="service__hero-ttl">飲食店オーナー様向け、<br>テイクアウトシステム。</p>
+<p class="service__hero-ttl">飲食店向けテイクアウトの<br>プラットフォーム</p>
 <div class="service__hero-btn">VIEW MORE<i class="fas fa-long-arrow-alt-right ml-3"></i></div>
 </a>
 <a class="service__hero-item" href="<?php echo $home; ?>/service/">
 <div class="service__hero-logo">
 <img src="<?php echo $wp_url; ?>/dist/images/logo_takeeats_2_w.png" alt="TakeEats" srcset="<?php echo $wp_url; ?>/dist/images/logo_takeeats_2_w.png 1x, <?php echo $wp_url; ?>/dist/images/logo_takeeats_2_w@2x.png 2x">
 </div>
-<p class="service__hero-ttl">テイクアウトが出来る<br>全国お店検索サイト。</p>
+<p class="service__hero-ttl">全国のおうちグルメが<br>楽しめるお店検索サイト</p>
 <div class="service__hero-btn">VIEW MORE<i class="fas fa-long-arrow-alt-right ml-3"></i></div>
 </a>
 </div>

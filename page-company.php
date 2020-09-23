@@ -33,7 +33,7 @@ if (has_post_thumbnail()) {
 </div>
 <section id="concept" class="vision concept sec">
 <div class="wrap">
-<h2 class="ttl-h2">VISION<span>ビジョン</span></h2>
+<h2 class="ttl-h2">VISION<span>私たちのビジョン</span></h2>
 <div class="img-wrap">
 <img src="<?php echo $wp_url; ?>/dist/images/bg_top_concept.png" alt="株式会社ランプのビジョン">
 </div>
@@ -42,7 +42,17 @@ if (has_post_thumbnail()) {
 <div class="inner">
 <h3>デジタルの力で地域社会を灯す。</h3>
 <p>エジソンが電灯を世の中に普及させたことで、それまで真っ暗だった人々の生活に明かりが灯されました。
-<br>私たちはそんな電灯のように地域社会を明るく灯すような企業を目指します。</p>
+<br>会を明るく灯すような企業を目指して、「ランプ」という社名をつけました。
+<br>
+<br>あまり縁のない京都で、これまで多くの企業様のWEBマーケティングをお手伝いさせていただきました。
+<br>ナウイルスによる世界恐慌が起きました。
+<br>
+<br>都に人がいない、お店がどんどん閉店されていく光景を目にして、なにか自分にできることがないかを考えていたとき、飲食店のテイクアウト営業にデジタル化がかなり遅れていることに気が付きました。
+<br>
+<br>く、より便利に利用できるように、モバイルオーダーのプラットフォームを開発し提供開始しました。
+<br>
+<br>けて、サービスを磨き続け、
+<br>ウトという業態で灯したいと考えています。</p>
 <p class="mb-0 text-right">代表取締役 河野 匠</p>
 </div>
 </div>
@@ -142,7 +152,7 @@ if (has_post_thumbnail()) {
 <th class="text-nowrap">資格・受賞歴</th>
 <td>
 <div class="d-flex align-items-center flex-wrap">
-<span class="d-block mr-md-3"><img src="<?php echo $wp_url; ?>/dist/images/booming.png" alt="Booming!5.0"></span>
+<span class="d-block mr-md-3"><img src="<?php echo $wp_url; ?>/dist/images/booming.png" srcset="<?php echo $wp_url; ?>/dist/images/booming.png 1x, <?php echo $wp_url; ?>/dist/images/booming@2x.png 2x" alt="Booming!5.0"></span>
 <span class="d-block mr-md-3 mt-md-0 mt-3"><img src="<?php echo $wp_url; ?>/dist/images/west_venture.png" alt="西日本ベンチャー"></span>
 <!-- <span class="d-block"><img src="<?php echo $wp_url; ?>/dist/images/google_ads.png" alt="Google広告の認定資格"></span> -->
 </div>
@@ -160,12 +170,12 @@ if (has_post_thumbnail()) {
 <li>
 <img src="<?php echo $wp_url; ?>/dist/images/kouno.png" alt="河野匠">
 <h3><span>代表取締役 / 創業者</span>河野 匠<span>Takumi Kouno</span></h3>
-<p>滋賀県出身。大学在学中にファッション通販サイトを立ち上げたことがきっかけで起業。そこで培ったWEBマーケティングのノウハウを事業とした株式会社ランプを創業し、これまで200社以上のWEBマーケティングを支援。京都府庁主催のセミナーや上場企業の社内研修にも講師として多数登壇。</p>
+<p>1992年、滋賀県出身。大学在学中にファッション系の通販サイトを立ち上げたことがきっかけで起業。その後、株式会社ランプを設立し、200社以上のWEBマーケティングやサイト制作を支援。京都府主催のセミナーや上場企業の社内研修にも講師として多数登壇。</p>
 </li>
 <li>
 <img src="<?php echo $wp_url; ?>/dist/images/suzuki.png" alt="鈴木駿也">
-<h3><span>執行役員 / 技術責任者</span>鈴木 駿也<span>Shunya Suzuki</span></h3>
-<p>兵庫県出身。京都コンピューター学院在学中に、創業期であった株式会社ランプにインターンシップとして参画。卒業後もシステムエンジニアとして同社のプロダクト開発に従事。アプリケーションの開発、サイト制作、SEO対策など多岐に渡って担当。</p>
+<h3><span>執行役員 兼 技術責任者</span>鈴木 駿也<span>Shunya Suzuki</span></h3>
+<p>1993年、兵庫県出身。京都コンピューター学院在学中に、創業期であった株式会社ランプにインターンシップとして参画。卒業後もシステムエンジニアとして同社のプロダクト開発に従事。複数の企業のアプリケーションの開発、サイト制作、SEO対策など多岐に渡って担当。2020年執行役員に就任。</p>
 </li>
 </ul>
 </div>
@@ -186,18 +196,18 @@ if (has_post_thumbnail()) {
 <td>海外ブランドを取り扱うファッション通販サイトを立ち上げ</td>
 </tr>
 <tr>
-<th rowspan="2">2015年</th>
+<th rowspan="2">2013年</th>
 <td>1月</td>
 <td>ノウハウを生かしてWEBマーケティング支援事業をスタート</td>
 </tr>
 <tr>
 <td>9月</td>
-<td>最年少（当時）で「注目の西日本ベンチャー50」に選出される</td>
+<td>京都の観光情報を世界中に配信する多言語メディアサイト「KyotoMasters」公開</td>
 </tr>
 <tr>
 <th class="text-nowrap">2016年</th>
 <td>12月</td>
-<td>京都のニッチな情報を世界中に配信する多言語メディアサイト「KyotoMasters」公開</td>
+<td>最年少（当時）で「注目の西日本ベンチャー50」に選出される</td>
 </tr>
 <tr>
 <th rowspan="2">2017年</th>
@@ -220,7 +230,7 @@ if (has_post_thumbnail()) {
 <tr>
 <th rowspan="4">2020年</th>
 <td>6月</td>
-<td>テイクアウトに専用の予約プラットフォーム「TakeEats」をリリース</td>
+<td>テイクアウトに特化したモバイルオーダープラットフォーム「TakeEats」をリリース</td>
 </tr>
 <tr>
 <td>7月</td>
@@ -228,7 +238,7 @@ if (has_post_thumbnail()) {
 </tr>
 <tr>
 <td>8月</td>
-<td>大阪府ベンチャー企業成長プロジェクト「Booming大阪5.0」に第1位で選出</td>
+<td>大阪府ベンチャー企業成長プロジェクト「Booming5.0」に第1位で選出</td>
 </tr>
 <tr>
 <td>9月</td>
