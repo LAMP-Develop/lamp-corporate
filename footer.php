@@ -6,7 +6,6 @@ $wp_url = get_template_directory_uri();
 <!-- main end -->
 <footer id="footer">
 <div class="container">
-
 <div class="row align-items-end">
 <div class="col-md-8">
 <div class="logo">
