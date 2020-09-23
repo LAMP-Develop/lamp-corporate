@@ -168,7 +168,7 @@ if (has_post_thumbnail()) {
 <h2 class="ttl-h2">MEMBER<span>経営陣</span></h2>
 <ul class="members">
 <li>
-<img src="<?php echo $wp_url; ?>/dist/images/kouno.png" alt="河野匠">
+<img src="<?php echo $wp_url; ?>/dist/images/kouno.jpg" alt="河野匠">
 <h3><span>代表取締役 / 創業者</span>河野 匠<span>Takumi Kouno</span></h3>
 <p>1992年、滋賀県出身。大学在学中にファッション系の通販サイトを立ち上げたことがきっかけで起業。その後、株式会社ランプを設立し、200社以上のWEBマーケティングやサイト制作を支援。京都府主催のセミナーや上場企業の社内研修にも講師として多数登壇。</p>
 </li>

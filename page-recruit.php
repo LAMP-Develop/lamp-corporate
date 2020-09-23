@@ -19,8 +19,8 @@ get_header(); the_post(); ?>
 </div>
 <div class="col-md-5 mb-md-0 mb-4 pr-0 pl-4">
 <div class="recruit__message-box">
-<p><img src="<?php echo $wp_url; ?>/dist/images/mission_txt.png" alt="message"></p>
-<p class="ttl">これまでの飲食業界の<br>ビジネスモデルを覆し、<br>多種多様な食文化を永続させる。</p>
+<p><img src="<?php echo $wp_url; ?>/dist/images/mission_txt.png" alt="Mission"></p>
+<p class="ttl">これまでの飲食業界のビジネスモデルを覆し、<br>日本の食文化を永続させる</p>
 <p class="mb-0">アフターコロナに向け、従来の営業ができなくなった飲食店に対してテイクアウトやデリバリーなどの”中食文化”を私たちが持つデジタルの力で推進し、新たな収益源を生み出すことで地域社会に貢献することが私たちのミッションです。</p>
 </div>
 </div>
@@ -36,23 +36,23 @@ get_header(); the_post(); ?>
 <div class="recruit__value">
 <div class="recruit__value-item">
 <img src="<?php echo $wp_url; ?>/dist/images/value_01.png" alt="スピード" srcset="<?php echo $wp_url; ?>/dist/images/value_01.png 1x, <?php echo $wp_url; ?>/dist/images/value_01@2x.png 2x">
-<p>1. スピード</p>
+<p>1. とにかく早く行動</p>
 </div>
 <div class="recruit__value-item">
 <img src="<?php echo $wp_url; ?>/dist/images/value_02.png" alt="逆算" srcset="<?php echo $wp_url; ?>/dist/images/value_02.png 1x, <?php echo $wp_url; ?>/dist/images/value_02@2x.png 2x">
-<p>2. 逆算</p>
+<p>2. 先を見て逆算</p>
 </div>
 <div class="recruit__value-item">
 <img src="<?php echo $wp_url; ?>/dist/images/value_03.png" alt="こだわり" srcset="<?php echo $wp_url; ?>/dist/images/value_03.png 1x, <?php echo $wp_url; ?>/dist/images/value_03@2x.png 2x">
-<p>3. こだわり</p>
+<p>3. 徹底的にこだわる</p>
 </div>
 <div class="recruit__value-item">
 <img src="<?php echo $wp_url; ?>/dist/images/value_04.png" alt="整理" srcset="<?php echo $wp_url; ?>/dist/images/value_04.png 1x, <?php echo $wp_url; ?>/dist/images/value_04@2x.png 2x">
-<p>4. 整理</p>
+<p>4. 常に整理整頓</p>
 </div>
 <div class="recruit__value-item">
 <img src="<?php echo $wp_url; ?>/dist/images/value_05.png" alt="コンセンサス" srcset="<?php echo $wp_url; ?>/dist/images/value_05.png 1x, <?php echo $wp_url; ?>/dist/images/value_05@2x.png 2x">
-<p>5. コンセンサス</p>
+<p>5. コンセンサス推進</p>
 </div>
 </div>
 </div>
