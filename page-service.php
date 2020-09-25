@@ -79,7 +79,7 @@ if (has_post_thumbnail()) {
 </div>
 </div>
 <div class="service__takeeats__wrap-img">
-<img src="<?php echo $wp_url; ?>/dist/images/service_2.png" alt="TakeEats" srcset="<?php echo $wp_url; ?>/dist/images/service_2.png 1x, <?php echo $wp_url; ?>/dist/images/service_2@2x.png 2x">
+<img src="<?php echo $wp_url; ?>/dist/images/service_2_new.png" alt="TakeEats" srcset="<?php echo $wp_url; ?>/dist/images/service_2_new.png 1x, <?php echo $wp_url; ?>/dist/images/service_2_new@2x.png 2x">
 </div>
 </div>
 </div>
