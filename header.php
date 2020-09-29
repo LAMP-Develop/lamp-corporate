@@ -42,4 +42,4 @@ $wp_url = get_template_directory_uri();
 </nav>
 </header>
 <!-- #header -->
-<main id="main-content">
+<main id="main-content" class="overflow-hidden">
