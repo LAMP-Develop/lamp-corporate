@@ -32,14 +32,15 @@ if (has_post_thumbnail()) {
 </div>
 </div>
 <section id="concept" class="vision concept sec">
-<div class="wrap">
-<h2 class="ttl-h2">VISION<span>私たちのビジョン</span></h2>
-<div class="img-wrap">
-<img src="<?php echo $wp_url; ?>/dist/images/bg_top_concept.png" alt="株式会社ランプのビジョン">
+<div class="container">
+<div class="vision-inner">
+<div class="vision-thumbnail">
+<div><img src="<?php echo $wp_url; ?>/dist/images/pict_com_1.png" alt="株式会社ランプの社内写真" srcset="<?php echo $wp_url; ?>/dist/images/pict_com_1.png 1x, <?php echo $wp_url; ?>/dist/images/pict_com_1@2x.png 2x"></div>
+<div><img src="<?php echo $wp_url; ?>/dist/images/pict_com_2.png" alt="株式会社ランプの社内写真" srcset="<?php echo $wp_url; ?>/dist/images/pict_com_2.png 1x, <?php echo $wp_url; ?>/dist/images/pict_com_2@2x.png 2x"></div>
 </div>
-<span class="abs"></span>
-<div class="txt-wrap">
-<div class="inner">
+<div class="d-flex">
+<h2 class="ttl-h2">VISION<span class="d-block ml-0 mt-3">私たちのビジョン</span></h2>
+<div>
 <h3>デジタルの力で地域社会を灯す。</h3>
 <p>エジソンが電灯を世の中に普及させたことで、それまで真っ暗だった人々の生活に明かりが灯されました。
 <br>そんな電灯のように地域社会を明るく灯すような企業を目指して、「ランプ」という社名をつけました。
@@ -56,7 +57,9 @@ if (has_post_thumbnail()) {
 </div>
 </div>
 </div>
+</div>
 </section>
+
 <section id="company-profile" class="sec bg-secondary">
 <div class="container">
 <h2 class="ttl-h2">PROFILE<span>会社概要</span></h2>
