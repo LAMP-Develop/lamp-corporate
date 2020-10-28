@@ -1,0 +1,39 @@
+.wpcf7 {
+  max-width: 768px;
+  margin: 3rem auto 0;
+  @include media-breakpoint-down(md) {
+    margin: 1rem auto 0;
+  }
+  .wpcf7-not-valid-tip {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .table {
+    th {
+      white-space: nowrap;
+      @include media-breakpoint-down(md) {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 1rem;
+      }
+    }
+    th,
+    td {
+      @include media-breakpoint-down(md) {
+        white-space: normal;
+        display: block;
+        border: 0;
+      }
+    }
+  }
+  form {
+    .wpcf7-response-output {
+      max-width: 768px;
+      margin: 1rem auto 0;
+      padding: 0.5rem;
+      border-radius: 5px;
+      font-size: $font-size-sm;
+    }
+  }
+}

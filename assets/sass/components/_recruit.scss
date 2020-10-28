@@ -1,0 +1,201 @@
+.recruit {
+  &__message {
+    .row {
+      @include media-breakpoint-down(md) {
+        flex-flow: column-reverse;
+      }
+    }
+    &-box {
+      text-align-last: left;
+      .ttl {
+        font-size: 1.3rem;
+        font-weight: bold;
+        letter-spacing: 0.15em;
+        margin: 2rem 0;
+        @include media-breakpoint-down(md) {
+          margin: 1.5rem 0;
+          font-size: 1.2rem;
+        }
+      }
+      img {
+        @include media-breakpoint-down(md) {
+          max-width: 45vw;
+          height: auto;
+        }
+      }
+    }
+  }
+  &__value {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    @include media-breakpoint-down(md) {
+      width: 100vw;
+      margin: 0 -15px;
+      overflow-x: scroll;
+      flex-wrap: nowrap;
+      padding: 1rem 1.5rem;
+    }
+    &-item {
+      background-color: $white;
+      box-shadow: 0 0 10px rgba($body-color, 0.1);
+      border-radius: 2rem;
+      text-align: center;
+      padding: 2rem 3rem;
+      @include media-breakpoint-down(md) {
+        flex: 0 0 64%;
+        margin: 0 2rem 0 0;
+        padding: 2rem;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+      p {
+        margin: 0;
+      }
+    }
+  }
+  &__single {
+    .singlepost {
+      h2,
+      h3,
+      h4,
+      h5 {
+        margin-top: 0 !important;
+      }
+    }
+  }
+}
+
+.joblist {
+  &-sort {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    @include media-breakpoint-down(md) {
+      justify-content: flex-start;
+    }
+    .btn {
+      box-shadow: none;
+      border-width: 2px;
+      font-weight: bold;
+      padding: 1em 2.5em;
+      min-width: 1px;
+      margin-right: 1rem;
+      @include media-breakpoint-down(md) {
+        margin-bottom: 1rem;
+        font-size: 12px;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  &-grid {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 4.5rem;
+    min-height: 500px;
+    @include media-breakpoint-down(md) {
+      margin-top: 0;
+    }
+  }
+  &-item {
+    position: relative;
+    width: 23%;
+    margin: 0 1% 2%;
+    background-color: $white;
+    box-shadow: 0 0 1rem rgba($body-color, 0.1);
+    padding: 1.5rem 1rem 1rem;
+    @include media-breakpoint-down(md) {
+      width: 100%;
+      margin: 3rem 0 0;
+    }
+    &.career {
+      .joblist-type {
+        color: $success;
+        span {
+          border-color: $success;
+        }
+      }
+    }
+    &.intern {
+      .joblist-type {
+        color: $primary;
+        span {
+          border-color: $primary;
+        }
+      }
+    }
+    &.parttime {
+      .joblist-type {
+        color: $warning;
+        span {
+          border-color: $warning;
+        }
+      }
+    }
+  }
+  &-type {
+    text-align: center;
+    @include media-breakpoint-down(md) {
+      text-align-last: left;
+    }
+    span {
+      display: inline-block;
+      line-height: 1;
+      border: 1px solid $body-color;
+      font-weight: bold;
+      font-size: 12px;
+      padding: 0.5em 1em;
+      border-radius: 5px;
+    }
+  }
+  &-ttl {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 1.5rem;
+  }
+  &-desc {
+    font-size: 13px;
+    line-height: normal;
+    color: rgba($body-color, 0.8);
+  }
+  &-place {
+    font-size: 13px;
+    line-height: normal;
+    color: rgba($body-color, 0.8);
+  }
+  &-btn {
+    a {
+      display: block;
+      border: 1px solid $body-color;
+      color: $body-color;
+      text-align: center;
+      font-size: $font-size-sm;
+      padding: $font-size-sm 1rem;
+      font-weight: bold;
+      &:hover {
+        color: $white;
+        background-color: $body-color;
+      }
+    }
+  }
+  &-must {
+    position: absolute;
+    top: -2rem;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    span {
+      font-size: $font-size-sm;
+      font-weight: bold;
+      background: linear-gradient(transparent 60%, rgba($warning, 0.6) 60%);
+    }
+  }
+}
