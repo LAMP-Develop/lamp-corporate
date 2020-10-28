@@ -42,7 +42,7 @@ if (has_post_thumbnail()) {
 </div>
 <div>
 <p>導入店舗</p>
-<p><span>200</span></p>
+<p><span>300</span>店舗</p>
 </div>
 </div>
 <div class="text-md-left text-center">
