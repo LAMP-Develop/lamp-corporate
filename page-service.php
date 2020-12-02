@@ -13,7 +13,7 @@ if (has_post_thumbnail()) {
     $thumbnail = '';
 }
 ?>
-<section id="sub-visual" <?php echo $thumbnail; ?>>
+<section id="sub-visual" class="service-visual">
 <span class="bg"></span>
 <div class="container">
 <div class="inner">

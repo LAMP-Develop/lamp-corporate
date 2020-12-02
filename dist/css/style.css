@@ -12382,6 +12382,8 @@ button:focus {
         display: block;
         margin-top: 5px;
         letter-spacing: 1px; }
+  #sub-visual.service-visual {
+    background-image: url("../images/mv_service.png"); }
 
 .local-menu {
   position: relative;
