@@ -2,7 +2,7 @@
 $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 get_header(); ?>
-<section id="sub-visual" <?php echo $thumbnail; ?>>
+<section id="sub-visual" class="newslist-visual">
 <span class="bg"></span>
 <div class="container">
 <div class="inner">

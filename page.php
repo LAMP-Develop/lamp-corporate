@@ -10,7 +10,8 @@ if (has_post_thumbnail()) {
     $thumbnail = '';
 }
 ?>
-<section id="sub-visual" <?php echo $thumbnail; ?>>
+<?php var_dump($slug) ?>
+<section id="sub-visual" class="<?php echo $slug; ?>-visual">
 <span class="bg"></span>
 <div class="container">
 <div class="inner">

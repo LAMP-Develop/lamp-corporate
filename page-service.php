@@ -13,7 +13,7 @@ if (has_post_thumbnail()) {
     $thumbnail = '';
 }
 ?>
-<section id="sub-visual" class="service-visual">
+<section id="sub-visual" class="<?php echo $slug; ?>-visual">
 <span class="bg"></span>
 <div class="container">
 <div class="inner">

@@ -4,7 +4,7 @@ $wp_url = get_template_directory_uri();
 $path = explode("/", substr($_SERVER['REQUEST_URI'], 0, -1));
 $now_slug = end($path);
 get_header(); ?>
-<section id="sub-visual" <?php echo $thumbnail; ?>>
+<section id="sub-visual" class="<?php echo $now_slug; ?>-visual">
 <span class="bg"></span>
 <div class="container">
 <div class="inner">

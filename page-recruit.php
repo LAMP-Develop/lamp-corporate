@@ -57,6 +57,10 @@ get_header(); the_post(); ?>
 </div>
 </div>
 </div>
+<div class="mt-5 mr-5">
+<img class="w-100  d-none d-lg-block" src="<?php echo $wp_url; ?>/dist/images/value_img_pc.png" alt="オフィス写真" srcset="<?php echo $wp_url; ?>/dist/images/value_img_pc.png 1x, <?php echo $wp_url; ?>/dist/images/value_img_pc@2x.png 2x">
+<img class="w-100 d-block d-lg-none" src="<?php echo $wp_url; ?>/dist/images/value_img_sp.png" alt="オフィス写真" srcset="<?php echo $wp_url; ?>/dist/images/value_img_sp.png 1x, <?php echo $wp_url; ?>/dist/images/value_img_sp@2x.png 2x">
+</div>
 </section>
 <section class="sec">
 <div class="container">
