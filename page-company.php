@@ -165,6 +165,12 @@ if (has_post_thumbnail()) {
 </div>
 </div>
 </section>
+<div class="pro_img">
+<div class="pro_img_wrap none"><img src="<?php echo $wp_url; ?>/dist/images/profile_01.png" alt="株式会社ランプの社内写真" srcset="<?php echo $wp_url; ?>/dist/images/profile_01.png 1x, <?php echo $wp_url; ?>/dist/images/profile_01@2x.png 2x"></div>
+<div class="pro_img_wrap none"><img src="<?php echo $wp_url; ?>/dist/images/profile_02.png" alt="株式会社ランプの社内写真" srcset="<?php echo $wp_url; ?>/dist/images/profile_02.png 1x, <?php echo $wp_url; ?>/dist/images/profile_02@2x.png 2x"></div>
+<div class="pro_img_wrap"><img src="<?php echo $wp_url; ?>/dist/images/profile_03.png" alt="株式会社ランプの社内写真" srcset="<?php echo $wp_url; ?>/dist/images/profile_03.png 1x, <?php echo $wp_url; ?>/dist/images/profile_03@2x.png 2x"></div>
+<div class="pro_img_wrap"><img src="<?php echo $wp_url; ?>/dist/images/profile_04.png" alt="株式会社ランプの社内写真" srcset="<?php echo $wp_url; ?>/dist/images/profile_04.png 1x, <?php echo $wp_url; ?>/dist/images/profile_04@2x.png 2x"></div>
+</div>
 <section id="member" class="sec">
 <div class="container">
 <h2 class="ttl-h2">MEMBER<span>経営陣</span></h2>

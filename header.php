@@ -19,6 +19,31 @@ $wp_url = get_template_directory_uri();
   gtag('config', 'UA-79537153-2');
 </script>
 <?php endif; ?>
+<style>
+.pro_img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+}
+.pro_img_wrap {
+  width: 25%;
+  height: auto;
+  object-fit: cover;
+}
+.pro_img_wrap img {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width:767px) {
+  .pro_img_wrap {
+    width: 50%;
+  }
+  .pro_img_wrap.none {
+    display: none;
+  }
+}
+</style>
 </head>
 <body <?php body_class(); ?> data-tmpdir="<?php echo $wp_url; ?>">
 <?php wp_body_open(); ?>
