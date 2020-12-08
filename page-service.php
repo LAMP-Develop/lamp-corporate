@@ -103,7 +103,7 @@ if (has_post_thumbnail()) {
 <p class="mb-0 text-right">詳しく見る <i class="fas fa-chevron-right"></i></p>
 </a>
 </li>
-<li class="service__lists-item">
+<!-- <li class="service__lists-item">
 <a href="https://seo.kagari.ai/" target="_blank">
 <div class="logo">
 <span><img src="<?php echo $wp_url; ?>/dist/images/logo_kagari.svg" alt="KAGARI"></span>
@@ -111,7 +111,7 @@ if (has_post_thumbnail()) {
 <p>WEBサイトの改善につなげるために、サイト上にあるすべてのページの検索順位を可視化したり、アクセス解析レポートの自動作成で業務を効率化することができるツールを提供しています。</p>
 <p class="mb-0 text-right">詳しく見る <i class="fas fa-chevron-right"></i></p>
 </a>
-</li>
+</li> -->
 <li class="service__lists-item mb-0">
 <a href="https://kyoto-masters.com/" target="_blank">
 <div class="logo">

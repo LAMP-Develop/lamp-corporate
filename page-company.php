@@ -53,7 +53,7 @@ if (has_post_thumbnail()) {
 <br>テイクアウトをより効率よく、より便利に利用できるように、モバイルオーダーのプラットフォームを開発し提供開始しました。
 <br>
 <br>今後もアフターコロナに向けて、サービスを磨き続け、全国の飲食店様をテイクアウトという業態で灯したいと考えています。</p>
-<p class="mb-0 text-right">代表取締役 河野 匠</p>
+<p class="mb-0 text-right">代表取締役 <img class="ml-4" src="<?php echo $wp_url; ?>/dist/images/name.png" alt="河野匠" srcset="<?php echo $wp_url; ?>/dist/images/name.png 1x, <?php echo $wp_url; ?>/dist/images/name@2x.png 2x"></p>
 </div>
 </div>
 </div>
