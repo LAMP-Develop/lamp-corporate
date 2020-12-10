@@ -85,7 +85,7 @@ if (has_post_thumbnail()) {
 </div>
 </div>
 <div class="logo-slick mt-5">
-<?php for ($i = 1; $i <= 8; $i++): ?>
+<?php for ($i = 1; $i <= 9; $i++): ?>
 <span><img src="<?php echo $wp_url; ?>/dist/images/lp_logo_<?php echo $i; ?>.png" alt="TakeEats導入事例-<?php echo $i; ?>" srcset="<?php echo $wp_url; ?>/dist/images/lp_logo_<?php echo $i; ?>.png 1x, <?php echo $wp_url; ?>/dist/images/lp_logo_<?php echo $i; ?>@2x.png 2x"></span>
 <?php endfor; ?>
 </div>
