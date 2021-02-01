@@ -57,14 +57,14 @@ if (has_post_thumbnail()) {
 <div class="service__hero">
 <a class="service__hero-item" href="<?php echo $home; ?>/service/">
 <div class="service__hero-logo">
-<img src="<?php echo $wp_url; ?>/dist/images/logo_takeeats_1_w.png" alt="TakeEats" srcset="<?php echo $wp_url; ?>/dist/images/logo_takeeats_1_w.png 1x, <?php echo $wp_url; ?>/dist/images/logo_takeeats_1_w@2x.png 2x">
+<img src="<?php echo $wp_url; ?>/dist/images/logo_takeeats_1_w.png" alt="TakeEats" srcset="<?php echo $wp_url; ?>/dist/images/logo_takeeats_1_w.png 1x, <?php echo $wp_url; ?>/dist/images/logo_takeeats_1_w@2x.png 2x" style="width: auto; height: 46px;">
 </div>
 <p class="service__hero-ttl">飲食店向けテイクアウトの<br>プラットフォーム</p>
 <div class="service__hero-btn">VIEW MORE<i class="fas fa-long-arrow-alt-right ml-3"></i></div>
 </a>
 <a class="service__hero-item" href="<?php echo $home; ?>/service/">
 <div class="service__hero-logo">
-<img src="<?php echo $wp_url; ?>/dist/images/logo_takeeats_2_w.png" alt="TakeEats" srcset="<?php echo $wp_url; ?>/dist/images/logo_takeeats_2_w.png 1x, <?php echo $wp_url; ?>/dist/images/logo_takeeats_2_w@2x.png 2x">
+<img src="<?php echo $wp_url; ?>/dist/images/logo_takeeats_2_w.png" alt="TakeEats" srcset="<?php echo $wp_url; ?>/dist/images/logo_takeeats_2_w.png 1x, <?php echo $wp_url; ?>/dist/images/logo_takeeats_2_w@2x.png 2x" style="width: auto; height: 70px;">
 </div>
 <p class="service__hero-ttl">全国のおうちグルメが<br>楽しめるお店検索サイト</p>
 <div class="service__hero-btn">VIEW MORE<i class="fas fa-long-arrow-alt-right ml-3"></i></div>
