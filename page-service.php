@@ -57,7 +57,7 @@ if (has_post_thumbnail()) {
 <div class="service__takeeats__wrap mt-5">
 <div class="service__takeeats__wrap-txt">
 <div class="service__takeeats__wrap-logo">
-<img src="<?php echo $wp_url; ?>/dist/images/logo_takeeats_2.png" alt="TakeEats" srcset="<?php echo $wp_url; ?>/dist/images/logo_takeeats_2.png 1x, <?php echo $wp_url; ?>/dist/images/logo_takeeats_2@2x.png 2x">
+<img src="<?php echo $wp_url; ?>/dist/images/logo_takeeats_2.png" alt="TakeEats" srcset="<?php echo $wp_url; ?>/dist/images/logo_takeeats_2.png 1x, <?php echo $wp_url; ?>/dist/images/logo_takeeats_2@2x.png 2x" style="width: auto; height: 70px;">
 </div>
 <p>全国3万店舗掲載のテイクアウトに特化した検索メディアです。<br>スマホで現在地から近くのテイクアウト可能店がヒットし、料理のジャンルやレビューで絞り込むことができます。</p>
 <div class="service__takeeats__wrap-futures">
