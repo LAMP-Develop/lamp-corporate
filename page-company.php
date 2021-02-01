@@ -93,8 +93,7 @@ $thumbnail = '';
 <tr>
 <th class="text-nowrap">事業内容</th>
 <td>・テイクアウト専用プラットフォーム「テイクイーツ」の開発・運営
-<br>・全国のテイクアウトできるお店検索メディア「テイクアウトお店検索」の企画・運営
-<br>・WEBマーケティング支援事業</td>
+<br>・全国のテイクアウトできるお店検索メディア「テイクアウトお店検索」の企画・運営</td>
 </tr>
 <tr>
 <th class="text-nowrap">代表者</th>
@@ -110,7 +109,7 @@ $thumbnail = '';
 </tr>
 <tr>
 <th class="text-nowrap">従業員数</th>
-<td>18名(アルバイト含む)</td>
+<td>20名(アルバイト含む)</td>
 </tr>
 <tr>
 <th class="text-nowrap">主要株主</th>

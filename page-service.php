@@ -90,7 +90,7 @@ if (has_post_thumbnail()) {
 <?php endfor; ?>
 </div>
 </section>
-<section id="webmarketing" class="sec bg-secondary">
+<!-- <section id="webmarketing" class="sec bg-secondary">
 <div class="container">
 <h2 class="ttl-h2">WEB MARKETING<span>WEBマーケティング事業</span></h2>
 <ul class="service__lists">
@@ -103,7 +103,7 @@ if (has_post_thumbnail()) {
 <p class="mb-0 text-right">詳しく見る <i class="fas fa-chevron-right"></i></p>
 </a>
 </li>
-<!-- <li class="service__lists-item">
+<li class="service__lists-item">
 <a href="https://seo.kagari.ai/" target="_blank">
 <div class="logo">
 <span><img src="<?php echo $wp_url; ?>/dist/images/logo_kagari.svg" alt="KAGARI"></span>
@@ -111,7 +111,7 @@ if (has_post_thumbnail()) {
 <p>WEBサイトの改善につなげるために、サイト上にあるすべてのページの検索順位を可視化したり、アクセス解析レポートの自動作成で業務を効率化することができるツールを提供しています。</p>
 <p class="mb-0 text-right">詳しく見る <i class="fas fa-chevron-right"></i></p>
 </a>
-</li> -->
+</li>
 <li class="service__lists-item mb-0">
 <a href="https://kyoto-masters.com/" target="_blank">
 <div class="logo">
@@ -128,5 +128,5 @@ if (has_post_thumbnail()) {
 <span class="logo-slick-client"><img src="<?php echo $wp_url; ?>/dist/images/lp_logo_2_<?php echo $i; ?>.png" alt="Webマーケの事例-<?php echo $i; ?>" srcset="<?php echo $wp_url; ?>/dist/images/lp_logo_2_<?php echo $i; ?>.png 1x, <?php echo $wp_url; ?>/dist/images/lp_logo_2_<?php echo $i; ?>@2x.png 2x"></span>
 <?php endfor; ?>
 </div>
-</section>
+</section> -->
 <?php get_footer();
