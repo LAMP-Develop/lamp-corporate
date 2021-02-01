@@ -8,9 +8,9 @@ get_header(); the_post();
 global $post;
 $slug = $post->post_name;
 if (has_post_thumbnail()) {
-    $thumbnail = 'style="background-image:url("'.get_the_post_thumbnail_url(get_the_ID(), 'full').'")';
+$thumbnail = 'style="background-image:url("'.get_the_post_thumbnail_url(get_the_ID(), 'full').'")';
 } else {
-    $thumbnail = '';
+$thumbnail = '';
 }
 ?>
 <section id="sub-visual" class="<?php echo $slug; ?>-visual">
@@ -93,7 +93,7 @@ if (has_post_thumbnail()) {
 <tr>
 <th class="text-nowrap">事業内容</th>
 <td>・テイクアウト専用プラットフォーム「TakeEats」の開発・運営
-<br>・全国のテイクアウトできるお店検索メディア「TakeEatsお店検索」の企画・運営
+<br>・全国のテイクアウトできるお店検索メディア「テイクアウトお店検索」の企画・運営
 <br>・WEBマーケティング支援事業</td>
 </tr>
 <tr>
@@ -106,11 +106,19 @@ if (has_post_thumbnail()) {
 </tr>
 <tr>
 <th class="text-nowrap">資本金</th>
-<td>4,000,000円</td>
+<td>35,999,200円（資本準備金を含む）</td>
 </tr>
 <tr>
 <th class="text-nowrap">従業員数</th>
 <td>18名(アルバイト含む)</td>
+</tr>
+<tr>
+<th class="text-nowrap">主要株主</th>
+<td>
+河野匠
+<br>ANRI
+<br>その他個人投資家数名
+</td>
 </tr>
 <tr>
 <th class="text-nowrap">主な取引先<br>(敬称略)</th>
@@ -176,12 +184,12 @@ if (has_post_thumbnail()) {
 <h2 class="ttl-h2">MEMBER<span>経営陣</span></h2>
 <ul class="members">
 <li>
-<img src="<?php echo $wp_url; ?>/dist/images/kouno_new.jpg" alt="河野匠">
+<img src="<?php echo $wp_url; ?>/dist/images/kouno.jpg" alt="河野匠">
 <h3><span>代表取締役 / 創業者</span>河野 匠<span>Takumi Kouno</span></h3>
 <p>1992年、滋賀県出身。大学在学中にファッション系の通販サイトを立ち上げたことがきっかけで起業。その後、株式会社ランプを設立し、200社以上のWEBマーケティングやサイト制作を支援。京都府主催のセミナーや上場企業の社内研修にも講師として多数登壇。</p>
 </li>
 <li>
-<img src="<?php echo $wp_url; ?>/dist/images/suzuki.png" alt="鈴木駿也">
+<img src="<?php echo $wp_url; ?>/dist/images/suzuki.jpg" alt="鈴木駿也">
 <h3><span>執行役員 兼 技術責任者</span>鈴木 駿也<span>Shunya Suzuki</span></h3>
 <p>1993年、兵庫県出身。京都コンピューター学院在学中に、創業期であった株式会社ランプにインターンシップとして参画。卒業後もシステムエンジニアとして同社のプロダクト開発に従事。複数の企業のアプリケーションの開発、サイト制作、SEO対策など多岐に渡って担当。2020年執行役員に就任。</p>
 </li>
@@ -242,7 +250,7 @@ if (has_post_thumbnail()) {
 </tr>
 <tr>
 <td>7月</td>
-<td>全国のテイクアウトできるお店検索メディア「TakeEatsお店検索」をリリース</td>
+<td>全国のテイクアウトできるお店検索メディア「テイクアウトお店検索」をリリース</td>
 </tr>
 <tr>
 <td>8月</td>
@@ -251,6 +259,11 @@ if (has_post_thumbnail()) {
 <tr>
 <td>9月</td>
 <td>事業拡大に伴い4度目となるオフィス移転（京都市中京区）</td>
+</tr>
+<tr>
+<th rowspan="4">2021年</th>
+<td>1月</td>
+<td>第三者割当増資を実施</td>
 </tr>
 </tbody>
 </table>
